@@ -69,7 +69,7 @@
 		display: block;
 		color: black;
 		padding: 14px 0.5em;
-		background: rgba(255,255,255,0.6);
+		background-image: url("../img/titlebg.png");
 		font-weight: bold;
 		text-decoration: none;
 	}
