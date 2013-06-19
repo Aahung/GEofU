@@ -158,6 +158,7 @@ $GECode="GE".$GECodeNum;
         else{
         echo "<a href='index.php#comment'><h4 style='display: inline-block'>此课程已经有人评论过了，一起来评论吧～</h4></a><br/>
         ";
+	//获取所评论内容
         $courses=$courseList->xpath("child::course[GEcode='$GECode']");
         $course = $courses[0];
         $comments = $course->xpath("child::comment");
@@ -173,17 +174,16 @@ $GECode="GE".$GECodeNum;
         $courseValues[$i] = (int)$comment -> CourseValue;
         $customComments[$i] = (string)$comment -> CustomComment;
         }
+	//获取总体summary
+	$summarys = $course->xpath("child::summary");
+	$summary = $summarys[0];
+	$AOR = $summary -> AOR;
+	$AGR = $summary -> AGR;
+	$ACD = $summary -> ACD;
+	$ACL = $summary -> ACL;
+	$ACV = $summary -> ACV;
 ?>
     <div id="chartset">
-        <?php
-            //导入数学程式进行平均值计算
-            include 'mathuse.php';
-            $AOR = (int)calculate_average($overallRanges);
-            $AGR = number_format(calculate_average($gradeRanges), 2, '.', '');
-            $ACD = (int)calculate_average($courseDifficultys);
-            $ACL = (int)calculate_average($courseLoads);
-            $ACV = (int)calculate_average($courseValues);
-        ?>
 
         <div id="container">
             <div id="coursecube" class='element <?php echo $GEAreaCorrected; ?>'>
@@ -202,6 +202,7 @@ $GECode="GE".$GECodeNum;
 
     <div id="commentset">
         <?php
+	//显示总体summary
         echo "<li>平均总体评价：" .$AOR;
         echo "<li>平均所得成绩：" .$AGR;
         echo "<li>平均课程难度：" .$ACD;
@@ -210,6 +211,7 @@ $GECode="GE".$GECodeNum;
         ?>
         <div style="clear: both"></div>
             <?php
+	    //逐条显示评论
             for($i=0;$i<count($comments);$i++){
             $comment = $comments[$i];
             //为了让时间戳为北京时间
