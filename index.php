@@ -51,7 +51,7 @@
 		<li><a href="#filter" data-option-value=".CCIV">CCIV</a></li>
 	      </ul>
 	      <ul id="sort-by" class="option-set clearfix" data-option-key="sortBy">
-		<li><a href="#sortBy=original-order" data-option-value="original-order" class="selected" data>不排序</a></li>
+		<li><a href="#sortBy=original-order" data-option-value="original-order" onmousedown="$('#container').isotope({sortAscending : true});" class="selected" data>不排序</a></li>
 		<li><a href="#sortBy=ACV" data-option-value="ACV" onclick="$('#container').isotope({sortAscending : false});">价值<small>↓</small></a></li>
 		<li><a href="#sortBy=ACL" data-option-value="ACL" onclick="$('#container').isotope({sortAscending : true});">任务<small>↑</small></a></li>
 		<li><a href="#sortBy=ACD" data-option-value="ACD" onclick="$('#container').isotope({sortAscending : true});">难度<small>↑</small></a></li>
@@ -96,7 +96,15 @@
 			echo "</div>\n";
 		}
 	?>
-	    
+		<a href="#form" class="open-popup-link"><div class='element addnew'>
+			<img src="img/addnew.png">
+			<h2 class='AOR' style="display: none">-1</h2>
+			<h2 class='AGR' style="display: none">-1</h2>
+			<h2 class='ACD' style="display: none">101</h2>
+			<h2 class='ACL' style="display: none">101</h2>
+			<h2 class='ACV' style="display: none">-1</h2>
+		</div></a>
+
 	  </div> <!-- #container -->
 	  </section>
 	</div>

@@ -887,12 +887,12 @@
 			<CustomComment>這課貌似越上能做的projecr越少。。抱大腿很重要。。。。quiz比較水，基本看project。占70％啊啊啊、</CustomComment>
 		</comment>
 		<summary>
-			<AOR>72.5</AOR>
-			<AGR>4.15</AGR>
-			<ACD>44.5</ACD>
-			<ACL>51</ACL>
-			<ACV>58.5</ACV>
-			<commentNum>2</commentNum>
+			<AOR>75</AOR>
+			<AGR>4.00</AGR>
+			<ACD>40.3333333333</ACD>
+			<ACL>39.6666666667</ACL>
+			<ACV>53.3333333333</ACV>
+			<commentNum>3</commentNum>
 		</summary>
 		<comment id="1371565237">
 			<OverallRange>75</OverallRange>
@@ -903,7 +903,12 @@
 			<CourseValue>74</CourseValue>
 			<CustomComment>跟CS内容比较相关，不管你专业不专业，project做的有创意，老师点赞就好~test很水。老师是Ted，挺萌的一个···据他说90%都是A Level。</CustomComment>
 		</comment>
-	</course>
+	<comment id="1371656541"><OverallRange>80</OverallRange><GradeRange>3.7</GradeRange><GradeStisfication>50</GradeStisfication><CourseDifficulty>32</CourseDifficulty><CourseLoad>17</CourseLoad><CourseValue>43</CourseValue><CustomComment>90%是Alevel咩……好吧我默默了&#13;
+上这门课是因为教课老师是advisor在meeting上公然宣传自己的GE课……&#13;
+这门课真的很好抱大腿，Ted把组分得那么大（十到十二个）但是真的能干事的也就四五个，因为人多了也没办法分配任务……但是没有抱到大腿的孩纸们也没关系，Ted喜欢有创意的小东西~投其所好吧~&#13;
+project是很重要……但是那两个midterm也是会影响成绩的不要掉以轻心！！！可能会决定你是A还是A-哦哦！&#13;
+总体觉得是一门还OK的课，每周一看TED卖傻萌然后抱怨lecture上座率太少……（因为lecture无聊嘛╮(╯▽╰)╭&#13;
+tutorial会演示一些比较好玩的内容，大家要上就当玩一玩吧</CustomComment></comment></course>
 	<course GEarea="AREA1">
 		<GEcode>GE1112</GEcode>
 		<comment id="1371603964">
