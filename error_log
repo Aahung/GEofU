@@ -612,3 +612,17 @@
 [19-Jun-2013 09:31:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 399
 [19-Jun-2013 09:33:24 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 398
 [19-Jun-2013 09:33:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 399
+[19-Jun-2013 12:28:00 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 401
+[19-Jun-2013 12:28:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 402
+[19-Jun-2013 12:28:11 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 401
+[19-Jun-2013 12:28:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 402
+[19-Jun-2013 12:31:21 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 401
+[19-Jun-2013 12:31:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 402
+[19-Jun-2013 12:32:19 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:21 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:22 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:23 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:25 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:26 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:31 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487
+[19-Jun-2013 12:32:41 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/hypearls/cityofu.com/ge/coursedetail.php on line 487

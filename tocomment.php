@@ -128,8 +128,7 @@ echo "<li>有多少人评价：" .$commentNum;//用于debugger
 if (empty($_POST['GECode']));
 else
 $courseList->asxml("_commentdata.xml");
-
-
+require("makeTimeline.php");
 ?>
 </pre>
     </div>

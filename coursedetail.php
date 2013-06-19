@@ -151,43 +151,7 @@ $GECode="GE".$GECodeNum;
 <script class="include" language="javascript" type="text/javascript" src="jqplot/jqplot.pieRenderer.min.js"></script>
 
 </head>
-<body>
-<header class="header top-fixed">
-	<div id="nav-shell">
-		<div id="nav-content">
-			<ul id="nav-ul">
-				<li><a href="index.php">GEofU</a></li>
-				<li><span><?php echo $GECode . "--" . $GEAreaCorrected;?>课程细节</span></li>
-				<li><a href="#form" class="open-popup-link">我要提供评价</a></li>
-				<li><a href="#form3" class="open-popup-link">我要报错</a></li>
-				<li><a href="courselist.php" target="new">GE课程列表</a></li>
-				<li><a href="#form2" class="open-popup-link">我要提供基础数据</a></li>
-			</ul>
-		</div>
-	</div>
-</header>
 
-<div id="bodyContainer">
-<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#19D&amp;text=分享到"></script>
-<h1>
-    <?php
-        //显示GECode和正常的GEArea（GEAreaCorrected）
-        echo $GECode . "--" . $GEAreaCorrected;
-    ?>
-    </h1>
-<h2>
-    <?php
-        //显示GEName
-        echo $GEName
-    ?>
-</h2>
-<a href="index.php"><h3 style="display: inline-block">返回首页</h3></a><br/>
-<a href="courselist.php"><h4 style="display: inline-block">返回课程列表页</h4></a><br/>
-<div class="float-right">
-    
-    <div class="img" onclick="window.open('http://www6.cityu.edu.hk/ge_info/courses/materials/html/<?php echo $GECode; ?>.html')"><span>点击进入EDGE页面查看细节</span><img src="img/EDGE.PNG" /></div>
-    <div class="img" onclick="window.open('http://eportal.cityu.edu.hk/bbcswebdav/institution/APPL/Course/Current/<?php echo $GECode; ?>.htm')"> <span>点击进入2B页面查看课程内容和要求</span> <img src="img/2BTable.PNG"/></div>
-</div>
 <?php
         $courseList = simplexml_load_file("_commentdata.xml");
         $courses=$courseList->xpath("child::course[GEcode='$GECode']");
@@ -220,6 +184,93 @@ $GECode="GE".$GECodeNum;
 	$ACL = (int)$summary -> ACL;
 	$ACV = (int)$summary -> ACV;
 ?>
+<body>
+<!--//facebook分享-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<header class="header top-fixed">
+	<div id="nav-shell">
+		<div id="nav-content">
+			<ul id="nav-ul">
+				<li><a href="index.php">GEofU</a></li>
+				<li><span><?php echo $GECode . "--" . $GEAreaCorrected;?>课程细节</span></li>
+				<li><a href="#form" class="open-popup-link">我要提供评价</a></li>
+				<li><a href="#form3" class="open-popup-link">我要报错</a></li>
+				<li><a href="courselist.php" target="new">GE课程列表</a></li>
+				<li><a href="#form2" class="open-popup-link">我要提供基础数据</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<div id="bodyContainer">
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#19D&amp;text=分享到"></script>
+<h1>
+    <?php
+        //显示GECode和正常的GEArea（GEAreaCorrected）
+        echo $GECode . "--" . $GEAreaCorrected;
+    ?>
+<!--微博分享-->
+<script type="text/javascript" charset="utf-8">
+(function(){
+  var _w = 142 , _h = 66;
+  var param = {
+    url:location.href,
+    type:'4',
+    count:'1', /**是否显示分享数，1显示(可选)*/
+    appkey:'1682786871', /**您申请的应用appkey,显示分享来源(可选)*/
+    title:'今天在GEofU看到一个GE：<?php echo $GECode .": ". $GEName; ?>，已经有<?php echo count($comments) ?>个评价了，分享给大家，好赞的哦～', /**分享的文字内容(可选，默认为所在页面的title)*/
+    pic:'http://cityofu.com/ge/img/GEofUcapture.PNG', /**分享图片的路径(可选)*/
+    ralateUid:'', /**关联用户的UID，分享微博会@该用户(可选)*/
+    language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
+    dpc:1
+  }
+  var temp = [];
+  for( var p in param ){
+    temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+  }
+  document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://service.weibo.com/staticjs/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+})()
+</script>
+<!--人人分享-->
+<script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
+<a name="xn_share" onclick="shareClick()" type="button_large" href="javascript:;"></a>
+<script type="text/javascript">
+	function shareClick() {
+		var rrShareParam = {
+			resourceUrl : location.href,	//分享的资源Url
+			srcUrl : location.href,	//分享的资源来源Url,默认为header中的Referer,如果分享失败可以调整此值为resourceUrl试试
+			pic : 'http://cityofu.com/ge/img/GEofUcapture.PNG',		//分享的主题图片Url
+			title : '分享一个GE',		//分享的标题
+			description : '今天在GEofU看到一个GE：<?php echo $GECode .": ". $GEName; ?>，已经有<?php echo count($comments) ?>个评价了，分享给大家，好赞的哦～'	//分享的详细描述
+		};
+		rrShareOnclick(rrShareParam);
+	}
+</script>
+<!--facebook分享-->
+<div class="fb-like" data-href=location.href data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-colorscheme="dark"></div>    <div id="fb-root"></div>
+</h1>
+<h2>
+    <?php
+        //显示GEName
+        echo $GEName
+    ?>
+</h2>
+<a href="index.php"><h3 style="display: inline-block">返回首页</h3></a><br/>
+<a href="courselist.php"><h4 style="display: inline-block">返回课程列表页</h4></a><br/>
+<div class="float-right">
+    
+    <div class="img" onclick="window.open('http://www6.cityu.edu.hk/ge_info/courses/materials/html/<?php echo $GECode; ?>.html')"><span>点击进入EDGE页面查看细节</span><img src="img/EDGE.PNG" /></div>
+    <div class="img" onclick="window.open('http://eportal.cityu.edu.hk/bbcswebdav/institution/APPL/Course/Current/<?php echo $GECode; ?>.htm')"> <span>点击进入2B页面查看课程内容和要求</span> <img src="img/2BTable.PNG"/></div>
+</div>
+
     <div id="chartset">
 
         <div id="container">
@@ -471,4 +522,5 @@ function ChangeCourseValueExplain(){
 }
 
 </script>
+
 </html>
