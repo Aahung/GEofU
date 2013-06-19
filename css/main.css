@@ -12,9 +12,14 @@
 		background-repeat: repeat;
 		background-position: top left;
 	}
+	#eatall
+	{
+		position: relative;
+	}
 	#bodyContainer
 	{
 		padding-top: 50px;
+		padding-bottom: 12px;
 		margin: auto;
 		min-width: 880px;
 		max-width: 1200px;
@@ -74,6 +79,28 @@
 		background: white;
 	}
 	/*导航栏css结束*/
+	/*footerCSS*/
+	footer
+	{
+		position: fixed;
+		z-index: 1000;
+		bottom: 0px;
+		width: 100%;
+	}
+	#footer-content
+	{
+		display: inline-block;
+		float: right;
+		padding-left: 10px;
+		background-color: rgba(0,0,0,0.8);
+		font-size: xx-small;
+		text-align: right;
+		-moz-border-radius: 2px 0px 0px 0px;
+		-webkit-border-radius: 2px 0px 0px 0px;
+		-khtml-border-radius: 2px 0px 0px 0px;
+		border-radius: 2px 0px 0px 0px;
+	}
+	/*footer CS结束*/
 	/*以下是弹出式form的css*/
 	.white-popup {
 		position: relative;
@@ -98,7 +125,7 @@
 	form select
 	{
 		color: white;
-		background: #444;
+		background: rgba(0,0,0,0.7);
 		width: auto;
 		padding: 5px;
 		font-size: 16px;
