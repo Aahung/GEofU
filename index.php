@@ -37,6 +37,7 @@
 	</div>
 </header>
 <div id="bodyContainer">
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#19D&amp;text=分享到"></script>
 	<!--isotope部分  -->
 	<div id="isotope"><a id="1"></a>
 		<div class="nav">

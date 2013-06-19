@@ -590,3 +590,25 @@
 [18-Jun-2013 10:02:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 245
 [18-Jun-2013 10:56:09 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 244
 [18-Jun-2013 10:56:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 245
+[19-Jun-2013 01:34:46 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 246
+[19-Jun-2013 01:34:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 247
+[19-Jun-2013 01:37:40 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 245
+[19-Jun-2013 01:37:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 246
+[19-Jun-2013 01:39:31 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 245
+[19-Jun-2013 01:39:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 246
+[19-Jun-2013 05:03:15 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or T_DOLLAR_OPEN_CURLY_BRACES or T_CURLY_OPEN in /home/hypearls/cityofu.com/ge/index.php on line 287
+[19-Jun-2013 05:06:37 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/hypearls/cityofu.com/ge/index.php on line 292
+[19-Jun-2013 05:14:23 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/hypearls/cityofu.com/ge/index.php on line 294
+[19-Jun-2013 06:15:11 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 245
+[19-Jun-2013 06:15:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 246
+[19-Jun-2013 06:43:03 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/hypearls/cityofu.com/ge/coursedetail.php on line 255
+[19-Jun-2013 08:25:02 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 283
+[19-Jun-2013 08:25:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 284
+[19-Jun-2013 08:25:50 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 283
+[19-Jun-2013 08:25:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 284
+[19-Jun-2013 08:29:30 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 401
+[19-Jun-2013 08:29:30 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 402
+[19-Jun-2013 09:31:34 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 398
+[19-Jun-2013 09:31:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 399
+[19-Jun-2013 09:33:24 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, null given in /home/hypearls/cityofu.com/ge/coursedetail.php on line 398
+[19-Jun-2013 09:33:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hypearls/cityofu.com/ge/coursedetail.php on line 399
