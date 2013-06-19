@@ -130,7 +130,7 @@
 <body>
 <div id="bodyContainer">
   <div id="title">
-    <h1>GEofU精进课程统计(beta)</h1>
+    <h1>GEofU精进课程统计(v1.0.1.5)</h1>
     <div>
     <ul id="title-nav">
       
