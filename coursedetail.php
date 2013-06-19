@@ -226,11 +226,11 @@ $GECode="GE".$GECodeNum;
             <div id="coursecube" class='element <?php echo $GEAreaCorrected; ?>'>
                  <p class='GEarea'><?php echo $GEAreaCorrected; ?></p>
                  <h1 class='GEcode'><?php echo $GECode ?></h1>
-                 <h2 class='AOR'><?php echo $AOR ?></h2>
+                 <h2 class='AOR'><?php echo (int)$AOR ?></h2>
                  <h2 class='AGR'><?php echo $AGR ?></h2>
-                 <h2 class='ACD'><?php echo $ACD ?></h2>
-                 <h2 class='ACL'><?php echo $ACL ?></h2>
-                 <h2 class='ACV'><?php echo $ACV ?></h2>
+                 <h2 class='ACD'><?php echo (int)$ACD ?></h2>
+                 <h2 class='ACL'><?php echo (int)$ACL ?></h2>
+                 <h2 class='ACV'><?php echo (int)$ACV ?></h2>
          </div>
         </div>
         <div id="charttitle" style=" width:500px; float: right;">GPA分布饼图</div>
