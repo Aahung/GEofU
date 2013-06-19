@@ -14,17 +14,16 @@
 	}
 	#bodyContainer
 	{
+		padding-top: 50px;
 		margin: auto;
 		min-width: 880px;
-		max-width: 960px;
+		max-width: 1200px;
 		background: transparent;
 	}
 	#isotope
 	{
 		background:transparent;
-		border: dashed;
-		border-color:white;
-		padding: 5px;
+		padding: 20px;
 	}
 	.element
 	{

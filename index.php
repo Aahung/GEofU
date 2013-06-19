@@ -6,6 +6,8 @@
 <meta name="description" content="GEofU是一个提供CityU GE精进课程的统计型网站"/>
 <link rel="shortcut icon" href="logo/logo.ico" type="image/x-icon"/>
 <link href="logo/logo.png" rel="apple-touch-icon" />
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="css/magnific-popup.css">
 <meta charset="utf-8">
 <title>GEofU精进课程统计</title>
 <!--一下两个script文件是用于读取GEcode.xml（GEcode.xml提取并改进自CityU 的aims）
@@ -122,31 +124,135 @@
 	{
 	  border: dashed;
 	  border-color:white;
-	  margin-top: 20px;
+	  margin-top: 10px;
+	  padding: 50px;
+	}
+	header
+	{
+		z-index: 1000;
+		position: fixed;
+		background-color: rgba(0,0,0,0.8);
+		top: 0px;
+		width: 100%;
+		height: 50px;
+	}
+	header #nav-shell
+	{
+		height: 50px;
+	}
+	header #nav-shell #nav-content
+	{
+		min-width: 900px;
+		max-width: 1200px;
+		margin: auto;
+	}
+	header div div ul
+	{
+		list-style: none;
+	}
+	header div div ul li
+	{
+		float: left;
+		margin: 0 14px;
+		display: block;
+	}
+	header div div ul li a
+	{
+		display: block;
+		color: white;
+		padding: 14px 0.5em;
+		background: transparent;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	header div div ul li span
+	{
+		display: block;
+		color: black;
+		padding: 14px 0.5em;
+		background: gray;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	header div div ul li a:hover
+	{
+		color: black;
+		background: white;
+	}
+	.white-popup {
+		position: relative;
+		background: rgba(0,0,0,0.7);
+		padding: 50px;
+		width: auto;
+		max-width: 500px;
+		margin: 20px auto;
+	}
+	form li
+	{
+		display: block;
+	}
+	form h1
+	{
+		margin-bottom: 20px;
+	}
+	form h1, form li, form h3, form h2, form em
+	{
+		color: white;
+	}
+	form select
+	{
+		color: white;
+		background: #444;
+		width: auto;
+		padding: 5px;
+		font-size: 16px;
+		line-height: 1;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	form select option
+	{
+		color: white;
+	}
+	form input[type="range"]
+	{
+		-webkit-appearance:none;
+		-moz-apperance:none;
+		height:1px;
+		margin-bottom: 5px;
+	}
+	form input[type="text"],form input[type="email"],form input[type="num"], form textarea, form input[type="submit"]
+	{
+		background: transparent;
+		border-color: white;
+		color: white;
+	}
+	form button
+	{
+		color: white !important;
 	}
 </style>
 </head>
 
 <body>
+<header class="header top-fixed">
+	<div id="nav-shell">
+		<div id="nav-content">
+			<ul id="nav-ul">
+				<li><a href="../">CityofU</a></li>
+				<li><span>GEofU精进课程统计(v1.0.1.5)</span></li>
+				<li><a href="#form" class="open-popup-link">我要提供评价</a></li>
+				<li><a href="#form3" class="open-popup-link">我要报错</a></li>
+				<li><a href="courselist.php" target="new">GE课程列表</a></li>
+				<li><a href="#form2" class="open-popup-link">我要提供基础数据</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
 <div id="bodyContainer">
-  <div id="title">
-    <h1>GEofU精进课程统计(v1.0.1.5)</h1>
-    <div>
-    <ul id="title-nav">
-      
-    <li style="margin: 9px;"><a href="courselist.php" target="new">查看GE课程列表快捷入口</a></li>
-    
-    <li style="margin: 9px;"><a href="http://cityofu.com">返回CityofU</a></li>
-    </ul>
-    </div>
-  </div>
-  <div id="isotope-demo">
-    <img id="demo-img" src="img/isotope-demo.png"></img>
-  </div>
-  <div style="clear: both"></div>
 <!--isotope部分  -->
 
-<div id="isotope">
+<div id="isotope"><a id="1"></a>
 	<div class="nav">
   <section id="options" class="clearfix">
       <ul id="filters" class="option-set clearfix" data-option-key="filter">
@@ -271,11 +377,8 @@
   </script>
 </div>
   <!--isotope部分结束-->
- <div id="comment">   
-    <section>
-    <h1>我也要评价<a id="comment"></a></h1>
-        <article>
-        	<form id="form" method="post" action="tocomment.php">
+        	<form id="form" method="post" action="tocomment.php" class="white-popup mfp-hide">
+			<h1>我要提供评价</h1>
             	<li>
                     GE: area:
                     <select onChange="changearea()" name="GEArea">
@@ -363,14 +466,8 @@
 					document.getElementById('GEcode').options[i] = new Option(area1[i],area1[i])
 				}
 			</script>
-      </article>
-  </section>
- </div>
- <div id="basicinfo">   
-    <section style="background-color:rgba(255,0,0,0.4)">
-        <h1>我要奉献基础数据(暂时不开放)</h1>	
-    	<article>
-        	<form id="form2" method="post" action="tobasic.php">
+<form style="background-color:rgba(255,0,0,0.4)" id="form2" method="post" action="tobasic.php" class="white-popup mfp-hide">
+        <h1>我要奉献基础数据(暂时不开放)<a id="4"></a></h1>	
             	<li>
                 	选择GE: 
                     <em> area:</em>
@@ -424,34 +521,34 @@
 
                 </li>
                 <input type="submit" disabled>
-            </form>
-            <script>
+</form>
+<script>
 			/*用于初始选项（id=GEcode2）的选项值，调用GEcode.xml的数据*/
 				var area1 = makeGEarray('AREA1');
 				var a1_l = area1.length;
 				for ( i=0; i < a1_l; i++) {
 					document.getElementById('GEcode2').options[i] = new Option(area1[i],area1[i])
 				}
-			</script>
-        </article>
-
-    </section>
- </div>
- <div id="advice">
-  <section>
-    <h1>我要报错</h1>
+</script>
+<form id="form3" method="post" action="advice.php" class="white-popup mfp-hide">
+    <h1>我要报错<a id="3"></a></h1>
     <h3>（如果你发现了有课程遗漏，有课程名称错误，或是有其他的bug，都欢迎告诉我们）</h2>
-    <article>
-      <form id="form3" method="post" action="advice.php">
 	<li>姓名：<input type="text" name="name"></li>
 	<li>邮箱：<input type="email" name="email" multiple></li>
 	<li><pre>遗漏或者错误的课程：
 	GE<input type="num" name="Misscode"></pre></li>
 	<li>其他：<br/><textarea name="othercomment" rows="10" cols="40"></textarea></li>
 	<input type="submit">
-      </form>
-    </article>
-  </section>
- </div>
+</form>
+ <!-- Magnific Popup core JS file -->
+<script src="js/magnific-popup.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.open-popup-link').magnificPopup({type:'inline'});
+});	
+	
+</script>
+
 </body>
 </html>
