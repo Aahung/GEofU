@@ -33,14 +33,14 @@
 			<CustomComment>diao你！！</CustomComment>
 		</comment>
 		<summary>
-			<AOR>35</AOR>
-			<AGR>2.85</AGR>
-			<ACD>84.5</ACD>
-			<ACL>83.5</ACL>
-			<ACV>33.5</ACV>
-			<commentNum>2</commentNum>
+			<AOR>26.6666666667</AOR>
+			<AGR>2.90</AGR>
+			<ACD>89.6666666667</ACD>
+			<ACL>89</ACL>
+			<ACV>22.3333333333</ACV>
+			<commentNum>3</commentNum>
 		</summary>
-	<comment id="1371558811"><OverallRange>36</OverallRange><GradeRange>3.0</GradeRange><GradeStisfication>23</GradeStisfication><CourseDifficulty>100</CourseDifficulty><CourseLoad>100</CourseLoad><CourseValue>42</CourseValue><CustomComment>坑爹啊</CustomComment></comment></course>
+	<comment id="1371558811"><OverallRange>36</OverallRange><GradeRange>3.0</GradeRange><GradeStisfication>23</GradeStisfication><CourseDifficulty>100</CourseDifficulty><CourseLoad>100</CourseLoad><CourseValue>42</CourseValue><CustomComment>坑爹啊</CustomComment></comment><comment id="1371615517"><OverallRange>10</OverallRange><GradeRange>3.0</GradeRange><GradeStisfication>4</GradeStisfication><CourseDifficulty>100</CourseDifficulty><CourseLoad>100</CourseLoad><CourseValue>0</CourseValue><CustomComment>哼哼！一眼望到1204！一辈子都记得你个won sai on!还我coursepack的钱！！！！</CustomComment></comment></course>
 	<course GEarea="AREA1">
 		<GEcode>GE2101</GEcode>
 		<comment id="1371092655">

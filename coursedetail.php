@@ -12,7 +12,7 @@ $GECode="GE".$GECodeNum;
 <html>
 <head>
 <meta name="keywords" content="GEofU,CityofU,CityU,香港城市大学,GE,精进课程,统计,GPA" />
-<meta name="description" content="GEofU是一个提供CityU GE精进课程的统计型网站"/>
+<meta name="description" content="<?php echo "GE课程 $GECode --$GEName"?>"/>
 <link rel="shortcut icon" href="logo/logo.ico" type="image/x-icon"/>
 <link href="logo/logo.png" rel="apple-touch-icon" />
 <title>
@@ -129,8 +129,7 @@ $GECode="GE".$GECodeNum;
 <body>
     
 <div id="bodyContainer">
-    
-<h1>
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#19D&amp;text=分享到"></script><h1>
     <?php
         //显示GECode和正常的GEArea（GEAreaCorrected）
         echo $GECode . "--" . $GEAreaCorrected;
