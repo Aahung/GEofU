@@ -42,12 +42,6 @@ $GECode="GE".$GECodeNum;
         border: dashed;
         border-color: white;
     }
-    #coutainer
-    {
-    }
-    #commentset
-    {
-    }
     .comment
     {
         border: dashed;
@@ -103,7 +97,7 @@ $GECode="GE".$GECodeNum;
         margin: 0px !important;
     }
     /*pop提示css*/
-    span{
+    div.img span{
         background:#F8F8F8;
         border: 5px solid #DFDFDF;
         color: #717171;
@@ -121,15 +115,59 @@ $GECode="GE".$GECodeNum;
     div.img:hover span{
         display:block;
     }
+    	.element
+	{
+		height: 100px;
+		width: 100px;
+		margin: 5px;
+		float: left;
+		vertical-align: baseline;
+	}
+	.element.AREA1
+	{
+		background-color: #FF6100;
+	}
+	.element.AREA2
+	{
+		background-color: #E80CDA;
+	}
+	.element.AREA3
+	{
+		background-color: #002EFF;
+	}
+	.element.English
+	{
+		background-color: #0CE892;
+	}
+	.element.CCIV
+	{
+		background-color: #D1FF0D;
+	}
+
 </style>
 <script class="include" type="text/javascript" src="jqplot/jquery.jqplot.min.js"></script>
 <script class="include" language="javascript" type="text/javascript" src="jqplot/jqplot.pieRenderer.min.js"></script>
 
 </head>
 <body>
-    
+<header class="header top-fixed">
+	<div id="nav-shell">
+		<div id="nav-content">
+			<ul id="nav-ul">
+				<li><a href="index.php">GEofU</a></li>
+				<li><span><?php echo $GECode . "--" . $GEAreaCorrected;?>课程细节</span></li>
+				<li><a href="#form" class="open-popup-link">我要提供评价</a></li>
+				<li><a href="#form3" class="open-popup-link">我要报错</a></li>
+				<li><a href="courselist.php" target="new">GE课程列表</a></li>
+				<li><a href="#form2" class="open-popup-link">我要提供基础数据</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
 <div id="bodyContainer">
-<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#19D&amp;text=分享到"></script><h1>
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#19D&amp;text=分享到"></script>
+<h1>
     <?php
         //显示GECode和正常的GEArea（GEAreaCorrected）
         echo $GECode . "--" . $GEAreaCorrected;
