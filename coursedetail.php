@@ -193,8 +193,6 @@ $GECode="GE".$GECodeNum;
         echo "<a href='index.php#comment'><h4 style='display: inline-block'>暂时没有评论，你来创建吧～</h4></a><br/>";
         }
         else{
-        echo "<a href='index.php#comment'><h4 style='display: inline-block'>此课程已经有人评论过了，一起来评论吧～</h4></a><br/>
-        ";
 	//获取所评论内容
         $courses=$courseList->xpath("child::course[GEcode='$GECode']");
         $course = $courses[0];
@@ -214,11 +212,11 @@ $GECode="GE".$GECodeNum;
 	//获取总体summary
 	$summarys = $course->xpath("child::summary");
 	$summary = $summarys[0];
-	$AOR = $summary -> AOR;
+	$AOR = (int)$summary -> AOR;
 	$AGR = $summary -> AGR;
-	$ACD = $summary -> ACD;
-	$ACL = $summary -> ACL;
-	$ACV = $summary -> ACV;
+	$ACD = (int)$summary -> ACD;
+	$ACL = (int)$summary -> ACL;
+	$ACV = (int)$summary -> ACV;
 ?>
     <div id="chartset">
 
@@ -226,11 +224,11 @@ $GECode="GE".$GECodeNum;
             <div id="coursecube" class='element <?php echo $GEAreaCorrected; ?>'>
                  <p class='GEarea'><?php echo $GEAreaCorrected; ?></p>
                  <h1 class='GEcode'><?php echo $GECode ?></h1>
-                 <h2 class='AOR'><?php echo (int)$AOR ?></h2>
+                 <h2 class='AOR'><?php echo $AOR ?></h2>
                  <h2 class='AGR'><?php echo $AGR ?></h2>
-                 <h2 class='ACD'><?php echo (int)$ACD ?></h2>
-                 <h2 class='ACL'><?php echo (int)$ACL ?></h2>
-                 <h2 class='ACV'><?php echo (int)$ACV ?></h2>
+                 <h2 class='ACD'><?php echo $ACD ?></h2>
+                 <h2 class='ACL'><?php echo $ACL ?></h2>
+                 <h2 class='ACV'><?php echo $ACV ?></h2>
          </div>
         </div>
         <div id="charttitle" style=" width:500px; float: right;">GPA分布饼图</div>
