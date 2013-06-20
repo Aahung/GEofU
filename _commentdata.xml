@@ -278,12 +278,12 @@
 			<CustomComment>王景松人很好哟</CustomComment>
 		</comment>
 		<summary>
-			<AOR>74</AOR>
-			<AGR>3.85</AGR>
-			<ACD>29.5</ACD>
-			<ACL>31</ACL>
-			<ACV>59.5</ACV>
-			<commentNum>2</commentNum>
+			<AOR>72.6666666667</AOR>
+			<AGR>3.57</AGR>
+			<ACD>36.3333333333</ACD>
+			<ACL>37.3333333333</ACL>
+			<ACV>56.3333333333</ACV>
+			<commentNum>3</commentNum>
 		</summary>
 		<comment id="1371547681">
 			<OverallRange>53</OverallRange>
@@ -294,7 +294,7 @@
 			<CourseValue>42</CourseValue>
 			<CustomComment/>
 		</comment>
-	</course>
+	<comment id="1371698182"><OverallRange>70</OverallRange><GradeRange>3.0</GradeRange><GradeStisfication>50</GradeStisfication><CourseDifficulty>50</CourseDifficulty><CourseLoad>50</CourseLoad><CourseValue>50</CourseValue><CustomComment>王景松。。对我下手太狠了，也不知是哪一部分（聆听小测，prez，final project）给了低分</CustomComment></comment></course>
 	<course GEarea="AREA1">
 		<GEcode>GE1106</GEcode>
 		<comment id="1371536585">
@@ -782,12 +782,12 @@
 			<CustomComment>好好做作业什么都ok~上课不听期末看看背背也可以~</CustomComment>
 		</comment>
 		<summary>
-			<AOR>66.25</AOR>
-			<AGR>3.03</AGR>
-			<ACD>65.75</ACD>
-			<ACL>30.25</ACL>
-			<ACV>71</ACV>
-			<commentNum>4</commentNum>
+			<AOR>71</AOR>
+			<AGR>3.22</AGR>
+			<ACD>57.8</ACD>
+			<ACL>32</ACL>
+			<ACV>71.2</ACV>
+			<commentNum>5</commentNum>
 		</summary>
 		<comment id="1371556532">
 			<OverallRange>51</OverallRange>
@@ -816,7 +816,7 @@
 			<CourseValue>68</CourseValue>
 			<CustomComment>课是好课，但是尼玛我期末感觉很不错但只给个B是什么意思？？！！据老师所说，这门课几乎完全看期末，that's all</CustomComment>
 		</comment>
-	</course>
+	<comment id="1371697891"><OverallRange>90</OverallRange><GradeRange>4.0</GradeRange><GradeStisfication>90</GradeStisfication><CourseDifficulty>26</CourseDifficulty><CourseLoad>39</CourseLoad><CourseValue>72</CourseValue><CustomComment>理科生学起来应该蛮容易的，prez和final不是很难</CustomComment></comment></course>
 	<course GEarea="AREA1">
 		<GEcode>GE2107</GEcode>
 		<comment id="1371558504">
@@ -961,12 +961,12 @@ tutorial会演示一些比较好玩的内容，大家要上就当玩一玩吧</C
 			<CustomComment>课的内容还不错，能学到东西，也算轻松。那内地的Dr. Li实在是有点坑爹，交作业那节课记得一定要在九点以前到！！</CustomComment>
 		</comment>
 		<summary>
-			<AOR>53</AOR>
-			<AGR>3.10</AGR>
-			<ACD>36</ACD>
-			<ACL>33.6666666667</ACL>
-			<ACV>59</ACV>
-			<commentNum>3</commentNum>
+			<AOR>54.75</AOR>
+			<AGR>3.15</AGR>
+			<ACD>39.75</ACD>
+			<ACL>30.5</ACL>
+			<ACV>56.75</ACV>
+			<commentNum>4</commentNum>
 		</summary>
 		<comment id="1371637035">
 			<OverallRange>60</OverallRange>
@@ -986,7 +986,7 @@ tutorial会演示一些比较好玩的内容，大家要上就当玩一玩吧</C
 			<CourseValue>42</CourseValue>
 			<CustomComment>老师是内地的 感觉人很好 上课会放普通话纪录片 但给分真不怎地</CustomComment>
 		</comment>
-	</course>
+	<comment id="1371721523"><OverallRange>60</OverallRange><GradeRange>3.3</GradeRange><GradeStisfication>25</GradeStisfication><CourseDifficulty>51</CourseDifficulty><CourseLoad>21</CourseLoad><CourseValue>50</CourseValue><CustomComment>课挺有意思的虽然上课也没仔细听过，但老师给分忒坑爹！</CustomComment></comment></course>
 	<course GEarea="AREA2">
 		<GEcode>GE1205</GEcode>
 		<comment id="1371633231">
