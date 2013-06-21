@@ -32,6 +32,7 @@
 </style>
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 <header class="header top-fixed">
 	<div id="nav-shell">
 		<div id="nav-content">

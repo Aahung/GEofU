@@ -114,7 +114,8 @@ echo "<li>有多少人评价：" .$commentNum;//用于debugger
     <link rel="stylesheet" href="css/main.css" />
 
 </head>
-<body>
+<body
+    <?php include_once("analyticstracking.php") ?>
     <div id="bodyContainer">
 <h1 style="text-align: center; margin-top: 300px;">感谢您的提交，您的每一个评价对我们都至关重要</h1>
 <a href="index.php"><h2 style="display: inline-block">返回首页</h2></a>

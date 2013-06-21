@@ -185,6 +185,7 @@ $GECode="GE".$GECodeNum;
 	$ACV = (int)$summary -> ACV;
 ?>
 <body>
+<?php include_once("analyticstracking.php") ?>
 <!--//facebook分享-->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

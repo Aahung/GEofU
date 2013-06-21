@@ -21,6 +21,7 @@
 </head>
 
 <body>
+	<?php include_once("analyticstracking.php") ?>
 <div id="eatall">
 <header class="header top-fixed">
 	<div id="nav-shell">
