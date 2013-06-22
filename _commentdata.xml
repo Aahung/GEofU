@@ -376,12 +376,12 @@
 			<CustomComment>Conny Yau挺好人的……</CustomComment>
 		</comment>
 		<summary>
-			<AOR>56.25</AOR>
+			<AOR>58.875</AOR>
 			<AGR>3.23</AGR>
-			<ACD>62.5</ACD>
-			<ACL>68.125</ACL>
-			<ACV>74.875</ACV>
-			<commentNum>7</commentNum>
+			<ACD>59.875</ACD>
+			<ACL>66</ACL>
+			<ACV>70.75</ACV>
+			<commentNum>8</commentNum>
 		</summary>
 		<comment id="1371539995">
 			<OverallRange>86</OverallRange>
@@ -437,7 +437,7 @@
 			<CourseValue>100</CourseValue>
 			<CustomComment/>
 		</comment>
-	</course>
+	<comment id="1371732586"><OverallRange>33</OverallRange><GradeRange>2.7</GradeRange><GradeStisfication>39</GradeStisfication><CourseDifficulty>72</CourseDifficulty><CourseLoad>72</CourseLoad><CourseValue>67</CourseValue><CustomComment>其实课程不是特别难的，就是要看见一个好老师比较重要，不能因为老师和蔼可亲就被迷惑了!</CustomComment></comment></course>
 	<course GEarea="AREA1">
 		<GEcode>GE1113</GEcode>
 		<comment id="1371539381">
