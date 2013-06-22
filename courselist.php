@@ -38,10 +38,10 @@
 		<div id="nav-content">
 			<ul id="nav-ul">
 				<li><a href="index.php">GEofU</a></li>
-				<li><span>GEofU精进课程统计(v1.0.1.9.5)</span></li>
+				<li><span>GEofU精进课程统计</span></li>
 				<li><a href="#form" class="open-popup-link">我要提供评价</a></li>
 				<li><a href="#form3" class="open-popup-link">我要报错</a></li>
-				<li><a href="courselist.php" target="new">GE课程列表</a></li>
+				<li><a href="courselist.php" target="new" class="selected">GE课程列表</a></li>
 				<li><a href="#form2" class="open-popup-link">我要提供基础数据</a></li>
 			</ul>
 		</div>

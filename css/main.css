@@ -73,10 +73,14 @@
 		font-weight: bold;
 		text-decoration: none;
 	}
-	header div div ul li a:hover
+	header div div ul li a:hover, header div div ul li a.selected
 	{
 		color: black;
 		background: white;
+	}
+	header div div ul li a.selected
+	{
+		cursor: default;
 	}
 	/*导航栏css结束*/
 	/*footerCSS*/
