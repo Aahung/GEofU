@@ -3,15 +3,24 @@ GEofU
 
 do stastic and ranking of GE course 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 URL: <a href='http://cityofu.com/ge'>http://cityofu.com/ge/</a>
+=======
+
+
+>>>>>>> 1.0.2
 
 --------------------------------------------------
 
 
 
 index.php: the home page and it use js to load GE course name according to GE code via GEcode.xml in the root directory;
+<<<<<<< HEAD
 
+=======
+{
+>>>>>>> 1.0.2
   jspack.js: the js in the index.php, just used to simplify the index.php;
 
   loadXMLDoc.js: use to load GEcode.xml using HTTPRequest;
@@ -19,6 +28,7 @@ index.php: the home page and it use js to load GE course name according to GE co
   makeGEArray.js: read the GEcode.xml and generate a array[GECode=>GEName];
 
   ranking.php: the file name is out of date, in fact it should be named loadComment.php(modified later),it loads _commentdata.xml and read all comments in that file, then generate arrays including comment information;
+<<<<<<< HEAD
 
 
 coursedetail.php: the page used to display specific GE course's detail, including{ GECode, GEname, the link to EDGE and 2Btable pages, avarage value of XXXXX, each comment content as well as a chart of GPA;}
@@ -49,3 +59,24 @@ courselist.php: list all GE course;
 tocomment.php: get POST values from index.php, write to _commentdata.xml;
 >>>>>>> b429a3c16218a1cfd30b36240ab44400a12999ab
   mathuse.php: to calculate the avrage value of overallRange, gradeRange and ...(5 value);
+=======
+}
+
+coursedetail.php: the page used to display specific GE course's detail, including{ GECode, GEname, the link to EDGE and 2Btable pages, avarage value of XXXXX, each comment content as well as a chart of GPA;}
+{
+  GetGEName.php: function getGEName($GEareanum,$GEcodenum){.....    return $GEname;};
+}
+
+courselist.php: list all GE course;
+{
+  loadXMLDoc.js;
+
+  makeGEArray.js;
+}
+
+tocomment.php: get POST values from index.php, write to _commentdata.xml;
+
+{
+  mathuse.php: to calculate the avrage value of overallRange, gradeRange and ...(5 value);
+}
+>>>>>>> 1.0.2

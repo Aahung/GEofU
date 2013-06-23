@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<courselist>
+	<course GEarea="AREA1">
+		<GEcode>GE1125</GEcode>
+		<comment id="1371060749">
+			<OverallRange>72</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>76</GradeStisfication>
+			<CourseDifficulty>34</CourseDifficulty>
+			<CourseLoad>48</CourseLoad>
+			<CourseValue>52</CourseValue>
+			<CustomComment>老师和蔼可亲，对内地生比较好。要认真对待他哦</CustomComment>
+		</comment>
+		<summary>
+			<AOR>72</AOR>
+			<AGR>3.70</AGR>
+			<ACD>34</ACD>
+			<ACL>48</ACL>
+			<ACV>52</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE1204</GEcode>
+		<comment id="1371060784">
+			<OverallRange>34</OverallRange>
+			<GradeRange>2.7</GradeRange>
+			<GradeStisfication>25</GradeStisfication>
+			<CourseDifficulty>69</CourseDifficulty>
+			<CourseLoad>67</CourseLoad>
+			<CourseValue>25</CourseValue>
+			<CustomComment>diao你！！</CustomComment>
+		</comment>
+		<summary>
+			<AOR>38.75</AOR>
+			<AGR>3.10</AGR>
+			<ACD>86.5</ACD>
+			<ACL>88.75</ACL>
+			<ACV>28</ACV>
+			<commentNum>4</commentNum>
+		</summary>
+		<comment id="1371558811">
+			<OverallRange>36</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>23</GradeStisfication>
+			<CourseDifficulty>100</CourseDifficulty>
+			<CourseLoad>100</CourseLoad>
+			<CourseValue>42</CourseValue>
+			<CustomComment>坑爹啊</CustomComment>
+		</comment>
+		<comment id="1371615517">
+			<OverallRange>10</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>4</GradeStisfication>
+			<CourseDifficulty>100</CourseDifficulty>
+			<CourseLoad>100</CourseLoad>
+			<CourseValue>0</CourseValue>
+			<CustomComment>哼哼！一眼望到1204！一辈子都记得你个won sai on!还我coursepack的钱！！！！</CustomComment>
+		</comment>
+		<comment id="1371654866">
+			<OverallRange>75</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>80</GradeStisfication>
+			<CourseDifficulty>77</CourseDifficulty>
+			<CourseLoad>88</CourseLoad>
+			<CourseValue>45</CourseValue>
+			<CustomComment>表示这门课就一个王赛喔…其实是王世安？&#13;
+老师没什么好选……&#13;
+一周一个essay或pre3一个midterm一个final其实想想是有点作死的节奏……&#13;
+组团去上可以避免大面积死伤……&#13;
+但是想想那个将近三百块的coursepack，嗯，选课需谨慎=V=</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE2101</GEcode>
+		<comment id="1371092655">
+			<OverallRange>100</OverallRange>
+			<GradeRange>4.3</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>23</CourseLoad>
+			<CourseValue>60</CourseValue>
+			<CustomComment>逻辑学相关</CustomComment>
+		</comment>
+		<summary>
+			<AOR>100</AOR>
+			<AGR>4.30</AGR>
+			<ACD>50</ACD>
+			<ACL>23</ACL>
+			<ACV>60</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA4">
+		<GEcode>GE2409</GEcode>
+		<comment id="1371102559">
+			<OverallRange>60</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>49</GradeStisfication>
+			<CourseDifficulty>64</CourseDifficulty>
+			<CourseLoad>62</CourseLoad>
+			<CourseValue>80</CourseValue>
+			<CustomComment>努力过，伤害过</CustomComment>
+		</comment>
+		<summary>
+			<AOR>72.5</AOR>
+			<AGR>3.35</AGR>
+			<ACD>40</ACD>
+			<ACL>51.5</ACL>
+			<ACV>79</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371536831">
+			<OverallRange>85</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>85</GradeStisfication>
+			<CourseDifficulty>16</CourseDifficulty>
+			<CourseLoad>41</CourseLoad>
+			<CourseValue>78</CourseValue>
+			<CustomComment>较轻松，Beth人很好</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE2203</GEcode>
+		<comment id="1371102657">
+			<OverallRange>61</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>61</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>60</CourseLoad>
+			<CourseValue>85</CourseValue>
+			<CustomComment>传说中很美好</CustomComment>
+		</comment>
+		<summary>
+			<AOR>67</AOR>
+			<AGR>3.33</AGR>
+			<ACD>42.3333333333</ACD>
+			<ACL>52</ACL>
+			<ACV>71.6666666667</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371206144">
+			<OverallRange>60</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>13</GradeStisfication>
+			<CourseDifficulty>18</CourseDifficulty>
+			<CourseLoad>27</CourseLoad>
+			<CourseValue>55</CourseValue>
+			<CustomComment>選課前要看老師！總共三次test，有的老師一次分數都不給學生知道，所以夜不清楚自己做的怎麼樣。</CustomComment>
+		</comment>
+		<comment id="1371545127">
+			<OverallRange>80</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>75</GradeStisfication>
+			<CourseDifficulty>59</CourseDifficulty>
+			<CourseLoad>69</CourseLoad>
+			<CourseValue>75</CourseValue>
+			<CustomComment>心理学……各种热门……内容的话……和想象中还是不一样的……assignment都是开卷事先准备，应付起来还是可以的。最后的pre3,booklet和poster要费点心思。建议好友组团去报~内容还是可以滴</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE2119</GEcode>
+		<comment id="1371102763">
+			<OverallRange>67</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>52</CourseLoad>
+			<CourseValue>60</CourseValue>
+			<CustomComment>当时什么都听不懂（广东话），但是作业不需要听懂</CustomComment>
+		</comment>
+		<summary>
+			<AOR>80</AOR>
+			<AGR>3.70</AGR>
+			<ACD>48.5</ACD>
+			<ACL>39.5</ACL>
+			<ACV>79.5</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371549835">
+			<OverallRange>93</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>88</GradeStisfication>
+			<CourseDifficulty>47</CourseDifficulty>
+			<CourseLoad>27</CourseLoad>
+			<CourseValue>99</CourseValue>
+			<CustomComment>來到香港，如果不上一門地道香港人教的課就太可惜了。香江才子馬家輝教你如何閱讀、如何思考！該課程適合文筆好愛讀書的孩子，每門課都會送出幾本書籍。如果你是馬家輝的粉絲還能拿他的書要簽名！上個sem講了張大春、陳冠中、莫言以及官僚暴力等idea。 不錯的一門課但是要get到老師的points需要機靈點！</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE2301</GEcode>
+		<comment id="1371206246">
+			<OverallRange>70</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>19</GradeStisfication>
+			<CourseDifficulty>0</CourseDifficulty>
+			<CourseLoad>24</CourseLoad>
+			<CourseValue>0</CourseValue>
+			<CustomComment>據說這個課以後豆沒有了。。。。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>70</AOR>
+			<AGR>3.30</AGR>
+			<ACD>0</ACD>
+			<ACL>24</ACL>
+			<ACV>0</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE1319</GEcode>
+		<comment id="1371133077">
+			<OverallRange>72</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>17</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>66</CourseLoad>
+			<CourseValue>80</CourseValue>
+			<CustomComment>能够学到东西。很不错。各个老师不同标准</CustomComment>
+		</comment>
+		<summary>
+			<AOR>69.6666666667</AOR>
+			<AGR>3.67</AGR>
+			<ACD>62</ACD>
+			<ACL>67.3333333333</ACL>
+			<ACV>54.3333333333</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371652243">
+			<OverallRange>83</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>91</GradeStisfication>
+			<CourseDifficulty>66</CourseDifficulty>
+			<CourseLoad>75</CourseLoad>
+			<CourseValue>54</CourseValue>
+			<CustomComment>要看的要做的事情有点多，给分的话可能是看导师吧，这不清楚。我那次是WANG Zuankai</CustomComment>
+		</comment>
+		<comment id="1371654224">
+			<OverallRange>54</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>53</GradeStisfication>
+			<CourseDifficulty>70</CourseDifficulty>
+			<CourseLoad>61</CourseLoad>
+			<CourseValue>29</CourseValue>
+			<CustomComment/>
+		</comment>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE2218</GEcode>
+		<comment id="1371344144">
+			<OverallRange>65</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>58</GradeStisfication>
+			<CourseDifficulty>72</CourseDifficulty>
+			<CourseLoad>37</CourseLoad>
+			<CourseValue>66</CourseValue>
+			<CustomComment>关于职业规划的课，里面设计一些社会学理论，包括Holland理论等。总体来说还不错但是唯一一次quiz有点难，要背很多东西。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>65</AOR>
+			<AGR>3.30</AGR>
+			<ACD>72</ACD>
+			<ACL>37</ACL>
+			<ACV>66</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE1105</GEcode>
+		<comment id="1371536289">
+			<OverallRange>95</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>43</CourseDifficulty>
+			<CourseLoad>31</CourseLoad>
+			<CourseValue>77</CourseValue>
+			<CustomComment>王景松人很好哟</CustomComment>
+		</comment>
+		<summary>
+			<AOR>72.6666666667</AOR>
+			<AGR>3.57</AGR>
+			<ACD>36.3333333333</ACD>
+			<ACL>37.3333333333</ACL>
+			<ACV>56.3333333333</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371547681">
+			<OverallRange>53</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>77</GradeStisfication>
+			<CourseDifficulty>16</CourseDifficulty>
+			<CourseLoad>31</CourseLoad>
+			<CourseValue>42</CourseValue>
+			<CustomComment/>
+		</comment>
+	<comment id="1371698182"><OverallRange>70</OverallRange><GradeRange>3.0</GradeRange><GradeStisfication>50</GradeStisfication><CourseDifficulty>50</CourseDifficulty><CourseLoad>50</CourseLoad><CourseValue>50</CourseValue><CustomComment>王景松。。对我下手太狠了，也不知是哪一部分（聆听小测，prez，final project）给了低分</CustomComment></comment></course>
+	<course GEarea="AREA1">
+		<GEcode>GE1106</GEcode>
+		<comment id="1371536585">
+			<OverallRange>85</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>85</GradeStisfication>
+			<CourseDifficulty>65</CourseDifficulty>
+			<CourseLoad>76</CourseLoad>
+			<CourseValue>56</CourseValue>
+			<CustomComment>老师是严格的，要做的东西还是有点多的，课是不能翘还不能迟到的。。一声叹。。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>85</AOR>
+			<AGR>3.30</AGR>
+			<ACD>65</ACD>
+			<ACL>76</ACL>
+			<ACV>56</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE2103</GEcode>
+		<comment id="1371536767">
+			<OverallRange>90</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>58</CourseDifficulty>
+			<CourseLoad>44</CourseLoad>
+			<CourseValue>81</CourseValue>
+			<CustomComment>教授好tutor好组员好什么都好就是阅读太多太难看懂不过好像看不完也没有太大关系有认真上课就行</CustomComment>
+		</comment>
+		<summary>
+			<AOR>92</AOR>
+			<AGR>3.70</AGR>
+			<ACD>52.5</ACD>
+			<ACL>35</ACL>
+			<ACV>90.5</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371551450">
+			<OverallRange>94</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>94</GradeStisfication>
+			<CourseDifficulty>47</CourseDifficulty>
+			<CourseLoad>26</CourseLoad>
+			<CourseValue>100</CourseValue>
+			<CustomComment>上过的感觉最有收获的GE课，老师张隆溪是CTL的chair professor，大牛一枚</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE2224</GEcode>
+		<comment id="1371537098">
+			<OverallRange>100</OverallRange>
+			<GradeRange>4.3</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>81</CourseDifficulty>
+			<CourseLoad>88</CourseLoad>
+			<CourseValue>63</CourseValue>
+			<CustomComment>真的看人品。。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>100</AOR>
+			<AGR>4.30</AGR>
+			<ACD>81</ACD>
+			<ACL>88</ACL>
+			<ACV>63</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA4">
+		<GEcode>GE1401</GEcode>
+		<comment id="1371537608">
+			<OverallRange>85</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>85</GradeStisfication>
+			<CourseDifficulty>79</CourseDifficulty>
+			<CourseLoad>65</CourseLoad>
+			<CourseValue>79</CourseValue>
+			<CustomComment>Conny Yau挺好人的……</CustomComment>
+		</comment>
+		<summary>
+			<AOR>58.875</AOR>
+			<AGR>3.23</AGR>
+			<ACD>59.875</ACD>
+			<ACL>66</ACL>
+			<ACV>70.75</ACV>
+			<commentNum>8</commentNum>
+		</summary>
+		<comment id="1371539995">
+			<OverallRange>86</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>82</GradeStisfication>
+			<CourseDifficulty>23</CourseDifficulty>
+			<CourseLoad>54</CourseLoad>
+			<CourseValue>73</CourseValue>
+			<CustomComment>LAM WAI KIN</CustomComment>
+		</comment>
+		<comment id="1371551938">
+			<OverallRange>0</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>26</GradeStisfication>
+			<CourseDifficulty>70</CourseDifficulty>
+			<CourseLoad>39</CourseLoad>
+			<CourseValue>29</CourseValue>
+			<CustomComment>感觉没什么意思，拉低gpa的…</CustomComment>
+		</comment>
+		<comment id="1371556628">
+			<OverallRange>90</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>82</GradeStisfication>
+			<CourseDifficulty>54</CourseDifficulty>
+			<CourseLoad>51</CourseLoad>
+			<CourseValue>66</CourseValue>
+			<CustomComment>lanbert好人啊</CustomComment>
+		</comment>
+		<comment id="1371603574">
+			<OverallRange>95</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>35</CourseDifficulty>
+			<CourseLoad>58</CourseLoad>
+			<CourseValue>77</CourseValue>
+			<CustomComment>一個叫Hannah的老師,人特別nice,第一節課就問"要不要我統一打印課件給你們啊~",很開朗的一個人啊,可能是在外國居住很長時間的緣故,很是活躍的說.至今記得她講過她人生第一份工作是教跆拳道...給分方面還okay,班上的內地生貌似分數都挺好的.不過UE嘛,本來課上講的東西就挺見仁見智的,有趣但對作業的幫助不太大.assignment什麽的都還是憑藉中學的積累啊積累...</CustomComment>
+		</comment>
+		<comment id="1371632686">
+			<OverallRange>70</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>0</GradeStisfication>
+			<CourseDifficulty>53</CourseDifficulty>
+			<CourseLoad>100</CourseLoad>
+			<CourseValue>75</CourseValue>
+			<CustomComment/>
+		</comment>
+		<comment id="1371654341">
+			<OverallRange>12</OverallRange>
+			<GradeRange>2.7</GradeRange>
+			<GradeStisfication>0</GradeStisfication>
+			<CourseDifficulty>93</CourseDifficulty>
+			<CourseLoad>89</CourseLoad>
+			<CourseValue>100</CourseValue>
+			<CustomComment/>
+		</comment>
+	<comment id="1371732586"><OverallRange>33</OverallRange><GradeRange>2.7</GradeRange><GradeStisfication>39</GradeStisfication><CourseDifficulty>72</CourseDifficulty><CourseLoad>72</CourseLoad><CourseValue>67</CourseValue><CustomComment>其实课程不是特别难的，就是要看见一个好老师比较重要，不能因为老师和蔼可亲就被迷惑了!</CustomComment></comment></course>
+	<course GEarea="AREA1">
+		<GEcode>GE1113</GEcode>
+		<comment id="1371539381">
+			<OverallRange>75</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>30</GradeStisfication>
+			<CourseDifficulty>70</CourseDifficulty>
+			<CourseLoad>50</CourseLoad>
+			<CourseValue>50</CourseValue>
+			<CustomComment/>
+		</comment>
+		<summary>
+			<AOR>75</AOR>
+			<AGR>3.50</AGR>
+			<ACD>51.5</ACD>
+			<ACL>42.5</ACL>
+			<ACV>48</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371558380">
+			<OverallRange>75</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>82</GradeStisfication>
+			<CourseDifficulty>33</CourseDifficulty>
+			<CourseLoad>35</CourseLoad>
+			<CourseValue>46</CourseValue>
+			<CustomComment>画画很多，学的东西感觉没什么太大用，个人不太喜欢Luisa的讲课方式，没point。。。给分略狠，但最后的成绩还算可以看。</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE1308</GEcode>
+		<comment id="1371540077">
+			<OverallRange>83</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>86</GradeStisfication>
+			<CourseDifficulty>27</CourseDifficulty>
+			<CourseLoad>26</CourseLoad>
+			<CourseValue>74</CourseValue>
+			<CustomComment>Dr. Woulid?</CustomComment>
+		</comment>
+		<summary>
+			<AOR>83</AOR>
+			<AGR>3.70</AGR>
+			<ACD>27</ACD>
+			<ACL>26</ACL>
+			<ACV>74</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA5">
+		<GEcode>GE1501</GEcode>
+		<comment id="1371540114">
+			<OverallRange>71</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>89</GradeStisfication>
+			<CourseDifficulty>68</CourseDifficulty>
+			<CourseLoad>28</CourseLoad>
+			<CourseValue>85</CourseValue>
+			<CustomComment>sharron Cheung</CustomComment>
+		</comment>
+		<summary>
+			<AOR>83.6666666667</AOR>
+			<AGR>3.90</AGR>
+			<ACD>53.6666666667</ACD>
+			<ACL>46</ACL>
+			<ACV>91</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371540562">
+			<OverallRange>96</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>50</CourseLoad>
+			<CourseValue>100</CourseValue>
+			<CustomComment>郭金鸿。没话说，又萌人又好，给分高，还可以听他讲他的凄美爱情故事。年纪轻轻就超厉害，我们一组都是Alevel，评价一下攒个人品。</CustomComment>
+		</comment>
+		<comment id="1371545274">
+			<OverallRange>84</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>85</GradeStisfication>
+			<CourseDifficulty>43</CourseDifficulty>
+			<CourseLoad>60</CourseLoad>
+			<CourseValue>88</CourseValue>
+			<CustomComment>董就雄 。蛮幽默的 人还不错  </CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE1104</GEcode>
+		<comment id="1371540678">
+			<OverallRange>93</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>64</CourseLoad>
+			<CourseValue>74</CourseValue>
+			<CustomComment>张为群，人很好，不黑大陆。多和她交流交流论文PRE3基本分数不错，我们一组都是A level。还可以听她谈古琴。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>93</AOR>
+			<AGR>4.00</AGR>
+			<ACD>50</ACD>
+			<ACL>64</ACL>
+			<ACV>74</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA4">
+		<GEcode>GE2402</GEcode>
+		<comment id="1371540894">
+			<OverallRange>0</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>66</GradeStisfication>
+			<CourseDifficulty>100</CourseDifficulty>
+			<CourseLoad>77</CourseLoad>
+			<CourseValue>47</CourseValue>
+			<CustomComment>= =英国老太，对自己的母语非常骄傲+维护正统。。。。她给分基本B,B+。。最后运气好给了个总分B+。。。但是客观的说，英国老太真的超优雅，气质好好OTZ</CustomComment>
+		</comment>
+		<summary>
+			<AOR>25.5</AOR>
+			<AGR>3.15</AGR>
+			<ACD>78.5</ACD>
+			<ACL>88.5</ACL>
+			<ACV>40.5</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371632809">
+			<OverallRange>51</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>0</GradeStisfication>
+			<CourseDifficulty>57</CourseDifficulty>
+			<CourseLoad>100</CourseLoad>
+			<CourseValue>34</CourseValue>
+			<CustomComment>太无趣的课</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE1102</GEcode>
+		<comment id="1371541124">
+			<OverallRange>0</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>19</CourseDifficulty>
+			<CourseLoad>56</CourseLoad>
+			<CourseValue>50</CourseValue>
+			<CustomComment>名字忘了。。是个西班牙？导演。。第一次当老师，PRE3完都不知道要记下组员名字的OTZ。。但是人好好，电影影评我参考豆瓣的我会说？OTZ。。。。总之认真一点，影评写的长一点。自由讨论观后感的时候想象自己是文艺绿茶婊就差不多了。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>0</AOR>
+			<AGR>3.70</AGR>
+			<ACD>19</ACD>
+			<ACL>56</ACL>
+			<ACV>50</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE2202</GEcode>
+		<comment id="1371541403">
+			<OverallRange>0</OverallRange>
+			<GradeRange>4.3</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>61</CourseDifficulty>
+			<CourseLoad>63</CourseLoad>
+			<CourseValue>79</CourseValue>
+			<CustomComment>老师是DAVID和伊莎贝拉。两人都人很好。考试多看看past paper多背背概念就好。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>42.5</AOR>
+			<AGR>4.15</AGR>
+			<ACD>63</ACD>
+			<ACL>62</ACL>
+			<ACV>73.5</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371564810">
+			<OverallRange>85</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>65</CourseDifficulty>
+			<CourseLoad>61</CourseLoad>
+			<CourseValue>68</CourseValue>
+			<CustomComment>这课的老师应该都一样，超认真负责啊！！！讲课超好啊！绝对好老师！课程如果想都弄懂会有点吃力的，涉及宏观经济学。但老师给分不错，努力一定会有回报！不会乱给分。Final好好背就可以的。Paper微繁重。</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE1201</GEcode>
+		<comment id="1371541555">
+			<OverallRange>0</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>71</GradeStisfication>
+			<CourseDifficulty>71</CourseDifficulty>
+			<CourseLoad>61</CourseLoad>
+			<CourseValue>52</CourseValue>
+			<CustomComment>TING TING LAI。。。个人认为是CITYU最漂亮的女老师。= =。。自己没好好学T^T</CustomComment>
+		</comment>
+		<summary>
+			<AOR>40</AOR>
+			<AGR>3.50</AGR>
+			<ACD>51.5</ACD>
+			<ACL>44</ACL>
+			<ACV>57</ACV>
+			<commentNum>2</commentNum>
+		</summary>
+		<comment id="1371645269">
+			<OverallRange>80</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>61</GradeStisfication>
+			<CourseDifficulty>32</CourseDifficulty>
+			<CourseLoad>27</CourseLoad>
+			<CourseValue>62</CourseValue>
+			<CustomComment>TING TING老师还是很不错的，但是我求A+却给我个A-不能忍啊</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA4">
+		<GEcode>GE2401</GEcode>
+		<comment id="1371542456">
+			<OverallRange>71</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>57</GradeStisfication>
+			<CourseDifficulty>29</CourseDifficulty>
+			<CourseLoad>39</CourseLoad>
+			<CourseValue>34</CourseValue>
+			<CustomComment>Kelly有点仇视内地人，不过在给分上比较公正，喜欢“打破常规”</CustomComment>
+		</comment>
+		<summary>
+			<AOR>71</AOR>
+			<AGR>3.00</AGR>
+			<ACD>29</ACD>
+			<ACL>39</ACL>
+			<ACV>34</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE1333</GEcode>
+		<comment id="1371545044">
+			<OverallRange>70</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>60</GradeStisfication>
+			<CourseDifficulty>58</CourseDifficulty>
+			<CourseLoad>41</CourseLoad>
+			<CourseValue>47</CourseValue>
+			<CustomComment>关于低碳的……课件好好背一背会好一些……课程比较无聊但是如果认真上A-Level应该是可以有的~</CustomComment>
+		</comment>
+		<summary>
+			<AOR>70</AOR>
+			<AGR>3.30</AGR>
+			<ACD>58</ACD>
+			<ACL>41</ACL>
+			<ACV>47</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE1214</GEcode>
+		<comment id="1371545293">
+			<OverallRange>79</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>60</GradeStisfication>
+			<CourseDifficulty>86</CourseDifficulty>
+			<CourseLoad>84</CourseLoad>
+			<CourseValue>74</CourseValue>
+			<CustomComment>法律院的，讲刑法，会去一次court。Michael老头微坑，一个local比较好。内容反正就是法律嘛比较无聊，感兴趣组团上吧~考试很重要，是要认真学的课。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>79</AOR>
+			<AGR>3.00</AGR>
+			<ACD>86</ACD>
+			<ACL>84</ACL>
+			<ACV>74</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE1101</GEcode>
+		<comment id="1371548538">
+			<OverallRange>71</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>82</GradeStisfication>
+			<CourseDifficulty>53</CourseDifficulty>
+			<CourseLoad>75</CourseLoad>
+			<CourseValue>36</CourseValue>
+			<CustomComment>选对老师很重要！</CustomComment>
+		</comment>
+		<summary>
+			<AOR>40.25</AOR>
+			<AGR>3.83</AGR>
+			<ACD>44.75</ACD>
+			<ACL>38.5</ACL>
+			<ACV>56.75</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371561193">
+			<OverallRange>90</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>20</CourseDifficulty>
+			<CourseLoad>8</CourseLoad>
+			<CourseValue>74</CourseValue>
+			<CustomComment>马先生很幽默，平时会将很多有意思的事情，上课也非常轻松，作业很有意思，特别是刚来听不懂广东话课，可以试着拿马Sir的吹水当教材，很生动哦！</CustomComment>
+		</comment>
+		<comment id="1371603226">
+			<OverallRange>0</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>69</GradeStisfication>
+			<CourseDifficulty>56</CourseDifficulty>
+			<CourseLoad>21</CourseLoad>
+			<CourseValue>67</CourseValue>
+			<CustomComment>上課時候的小任務都不重,然後你以為它很水,結果就悲劇了QAQ</CustomComment>
+		</comment>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE3201</GEcode>
+		<comment id="1371551029">
+			<OverallRange>95</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>95</GradeStisfication>
+			<CourseDifficulty>50</CourseDifficulty>
+			<CourseLoad>64</CourseLoad>
+			<CourseValue>81</CourseValue>
+			<CustomComment/>
+		</comment>
+		<summary>
+			<AOR>95</AOR>
+			<AGR>4.00</AGR>
+			<ACD>50</ACD>
+			<ACL>64</ACL>
+			<ACV>81</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE2213</GEcode>
+		<comment id="1371554587">
+			<OverallRange>80</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>45</CourseDifficulty>
+			<CourseLoad>0</CourseLoad>
+			<CourseValue>62</CourseValue>
+			<CustomComment>好好做作业什么都ok~上课不听期末看看背背也可以~</CustomComment>
+		</comment>
+		<summary>
+			<AOR>71</AOR>
+			<AGR>3.22</AGR>
+			<ACD>57.8</ACD>
+			<ACL>32</ACL>
+			<ACV>71.2</ACV>
+			<commentNum>5</commentNum>
+		</summary>
+		<comment id="1371556532">
+			<OverallRange>51</OverallRange>
+			<GradeRange>2.7</GradeRange>
+			<GradeStisfication>0</GradeStisfication>
+			<CourseDifficulty>67</CourseDifficulty>
+			<CourseLoad>72</CourseLoad>
+			<CourseValue>59</CourseValue>
+			<CustomComment>2213上了还想上，2213学了还要学，</CustomComment>
+		</comment>
+		<comment id="1371633398">
+			<OverallRange>71</OverallRange>
+			<GradeRange>2.7</GradeRange>
+			<GradeStisfication>75</GradeStisfication>
+			<CourseDifficulty>100</CourseDifficulty>
+			<CourseLoad>8</CourseLoad>
+			<CourseValue>95</CourseValue>
+			<CustomComment>课能学到很多东西，但是文科僧，尤其是数学不好的文科僧，一定不要试图尝试！！！presen很简单，考试很难很难很难，给分也算公道吧。</CustomComment>
+		</comment>
+		<comment id="1371645636">
+			<OverallRange>63</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>29</GradeStisfication>
+			<CourseDifficulty>51</CourseDifficulty>
+			<CourseLoad>41</CourseLoad>
+			<CourseValue>68</CourseValue>
+			<CustomComment>课是好课，但是尼玛我期末感觉很不错但只给个B是什么意思？？！！据老师所说，这门课几乎完全看期末，that's all</CustomComment>
+		</comment>
+	<comment id="1371697891"><OverallRange>90</OverallRange><GradeRange>4.0</GradeRange><GradeStisfication>90</GradeStisfication><CourseDifficulty>26</CourseDifficulty><CourseLoad>39</CourseLoad><CourseValue>72</CourseValue><CustomComment>理科生学起来应该蛮容易的，prez和final不是很难</CustomComment></comment></course>
+	<course GEarea="AREA1">
+		<GEcode>GE2107</GEcode>
+		<comment id="1371558504">
+			<OverallRange>100</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>90</GradeStisfication>
+			<CourseDifficulty>19</CourseDifficulty>
+			<CourseLoad>22</CourseLoad>
+			<CourseValue>80</CourseValue>
+			<CustomComment>喜欢日本喜欢动漫的同学绝对不能错过！</CustomComment>
+		</comment>
+		<summary>
+			<AOR>100</AOR>
+			<AGR>4.00</AGR>
+			<ACD>19</ACD>
+			<ACL>22</ACL>
+			<ACV>80</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE2223</GEcode>
+		<comment id="1371558727">
+			<OverallRange>81</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>79</GradeStisfication>
+			<CourseDifficulty>41</CourseDifficulty>
+			<CourseLoad>35</CourseLoad>
+			<CourseValue>67</CourseValue>
+			<CustomComment>IP Dennis 不錯</CustomComment>
+		</comment>
+		<summary>
+			<AOR>87.3333333333</AOR>
+			<AGR>3.70</AGR>
+			<ACD>32.6666666667</ACD>
+			<ACL>31</ACL>
+			<ACV>61</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371652074">
+			<OverallRange>81</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>70</GradeStisfication>
+			<CourseDifficulty>52</CourseDifficulty>
+			<CourseLoad>48</CourseLoad>
+			<CourseValue>62</CourseValue>
+			<CustomComment>很认真地做了pre和paper 老师是IP Chi Shun 他比较看重attendence</CustomComment>
+		</comment>
+		<comment id="1371654143">
+			<OverallRange>100</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>61</GradeStisfication>
+			<CourseDifficulty>5</CourseDifficulty>
+			<CourseLoad>10</CourseLoad>
+			<CourseValue>54</CourseValue>
+			<CustomComment/>
+		</comment>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE2315</GEcode>
+		<comment id="1371564401">
+			<OverallRange>70</OverallRange>
+			<GradeRange>4.3</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>46</CourseDifficulty>
+			<CourseLoad>44</CourseLoad>
+			<CourseValue>43</CourseValue>
+			<CustomComment>這課貌似越上能做的projecr越少。。抱大腿很重要。。。。quiz比較水，基本看project。占70％啊啊啊、</CustomComment>
+		</comment>
+		<summary>
+			<AOR>75</AOR>
+			<AGR>4.00</AGR>
+			<ACD>40.3333333333</ACD>
+			<ACL>39.6666666667</ACL>
+			<ACV>53.3333333333</ACV>
+			<commentNum>3</commentNum>
+		</summary>
+		<comment id="1371565237">
+			<OverallRange>75</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>75</GradeStisfication>
+			<CourseDifficulty>43</CourseDifficulty>
+			<CourseLoad>58</CourseLoad>
+			<CourseValue>74</CourseValue>
+			<CustomComment>跟CS内容比较相关，不管你专业不专业，project做的有创意，老师点赞就好~test很水。老师是Ted，挺萌的一个···据他说90%都是A Level。</CustomComment>
+		</comment>
+	<comment id="1371656541"><OverallRange>80</OverallRange><GradeRange>3.7</GradeRange><GradeStisfication>50</GradeStisfication><CourseDifficulty>32</CourseDifficulty><CourseLoad>17</CourseLoad><CourseValue>43</CourseValue><CustomComment>90%是Alevel咩……好吧我默默了&#13;
+上这门课是因为教课老师是advisor在meeting上公然宣传自己的GE课……&#13;
+这门课真的很好抱大腿，Ted把组分得那么大（十到十二个）但是真的能干事的也就四五个，因为人多了也没办法分配任务……但是没有抱到大腿的孩纸们也没关系，Ted喜欢有创意的小东西~投其所好吧~&#13;
+project是很重要……但是那两个midterm也是会影响成绩的不要掉以轻心！！！可能会决定你是A还是A-哦哦！&#13;
+总体觉得是一门还OK的课，每周一看TED卖傻萌然后抱怨lecture上座率太少……（因为lecture无聊嘛╮(╯▽╰)╭&#13;
+tutorial会演示一些比较好玩的内容，大家要上就当玩一玩吧</CustomComment></comment></course>
+	<course GEarea="AREA1">
+		<GEcode>GE1112</GEcode>
+		<comment id="1371603964">
+			<OverallRange>92</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>100</GradeStisfication>
+			<CourseDifficulty>57</CourseDifficulty>
+			<CourseLoad>39</CourseLoad>
+			<CourseValue>79</CourseValue>
+			<CustomComment>每週堂課加一份報告一次pre3,平時上課內容就是禪文化有關的內容了,有興趣的話應該挺好玩,沒什麼興趣也...反正不難,可以用來增進常識吧.似乎普遍是B range的,做好拿不到A range的覺悟吧.總體不錯.郭錦鴻的小課.</CustomComment>
+		</comment>
+		<summary>
+			<AOR>92</AOR>
+			<AGR>3.70</AGR>
+			<ACD>57</ACD>
+			<ACL>39</ACL>
+			<ACV>79</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA2">
+		<GEcode>GE1202</GEcode>
+		<comment id="1371604197">
+			<OverallRange>0</OverallRange>
+			<GradeRange>3.7</GradeRange>
+			<GradeStisfication>64</GradeStisfication>
+			<CourseDifficulty>73</CourseDifficulty>
+			<CourseLoad>54</CourseLoad>
+			<CourseValue>86</CourseValue>
+			<CustomComment>成績都是浮雲啦.基本內容同商院FM的time value of money差不多,只是公式多了一點,考試沒有formula sheet.難度上同FM差不多,見仁見智吧,我是覺得挺好理解的.每週都有一份assignment,花個半天左右基本就能做完了,實在不行可以請教同學嘛!有project,但是挺水的感覺,統共花了可能不到6個小時就連稿子都出來了.</CustomComment>
+		</comment>
+		<summary>
+			<AOR>0</AOR>
+			<AGR>3.70</AGR>
+			<ACD>73</ACD>
+			<ACL>54</ACL>
+			<ACV>86</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE1332</GEcode>
+		<comment id="1371633029">
+			<OverallRange>52</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>0</GradeStisfication>
+			<CourseDifficulty>32</CourseDifficulty>
+			<CourseLoad>37</CourseLoad>
+			<CourseValue>63</CourseValue>
+			<CustomComment>课的内容还不错，能学到东西，也算轻松。那内地的Dr. Li实在是有点坑爹，交作业那节课记得一定要在九点以前到！！</CustomComment>
+		</comment>
+		<summary>
+			<AOR>54.75</AOR>
+			<AGR>3.15</AGR>
+			<ACD>39.75</ACD>
+			<ACL>30.5</ACL>
+			<ACV>56.75</ACV>
+			<commentNum>4</commentNum>
+		</summary>
+		<comment id="1371637035">
+			<OverallRange>60</OverallRange>
+			<GradeRange>3.0</GradeRange>
+			<GradeStisfication>70</GradeStisfication>
+			<CourseDifficulty>37</CourseDifficulty>
+			<CourseLoad>30</CourseLoad>
+			<CourseValue>72</CourseValue>
+			<CustomComment>是个好课……同样的注意交作业的时间……还有队友不能坑啊啊啊！</CustomComment>
+		</comment>
+		<comment id="1371652347">
+			<OverallRange>47</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>39</GradeStisfication>
+			<CourseDifficulty>39</CourseDifficulty>
+			<CourseLoad>34</CourseLoad>
+			<CourseValue>42</CourseValue>
+			<CustomComment>老师是内地的 感觉人很好 上课会放普通话纪录片 但给分真不怎地</CustomComment>
+		</comment>
+	<comment id="1371721523"><OverallRange>60</OverallRange><GradeRange>3.3</GradeRange><GradeStisfication>25</GradeStisfication><CourseDifficulty>51</CourseDifficulty><CourseLoad>21</CourseLoad><CourseValue>50</CourseValue><CustomComment>课挺有意思的虽然上课也没仔细听过，但老师给分忒坑爹！</CustomComment></comment></course>
+	<course GEarea="AREA2">
+		<GEcode>GE1205</GEcode>
+		<comment id="1371633231">
+			<OverallRange>69</OverallRange>
+			<GradeRange>3.3</GradeRange>
+			<GradeStisfication>89</GradeStisfication>
+			<CourseDifficulty>72</CourseDifficulty>
+			<CourseLoad>37</CourseLoad>
+			<CourseValue>58</CourseValue>
+			<CustomComment>学的内容看起来很高贵冷艳。。quiz难度逆天，但给分超惊艳。想学好真的要下功夫的一门课。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>69</AOR>
+			<AGR>3.30</AGR>
+			<ACD>72</ACD>
+			<ACL>37</ACL>
+			<ACV>58</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA3">
+		<GEcode>GE2303</GEcode>
+		<comment id="1371640811">
+			<OverallRange>0</OverallRange>
+			<GradeRange>1.7</GradeRange>
+			<GradeStisfication>10</GradeStisfication>
+			<CourseDifficulty>63</CourseDifficulty>
+			<CourseLoad>83</CourseLoad>
+			<CourseValue>54</CourseValue>
+			<CustomComment>好吧，我承認作為新生sem a不知道怎麼選好課。但這課太坑了，科工類讓人寫business plan，讓我們實現空調能50％，我去，能實現我還在你這上課吖。隊友也比較坑，除我全local，還不做事tat。。所有report都認真寫了，不求高分，求個b－都木有。。。不是這課我也有專業啊啊啊。有這麼多ge，這種奇葩的還是閃掉。。。</CustomComment>
+		</comment>
+		<summary>
+			<AOR>0</AOR>
+			<AGR>1.70</AGR>
+			<ACD>63</ACD>
+			<ACL>83</ACL>
+			<ACV>54</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+	<course GEarea="AREA1">
+		<GEcode>GE1107</GEcode>
+		<comment id="1371651840">
+			<OverallRange>70</OverallRange>
+			<GradeRange>4.0</GradeRange>
+			<GradeStisfication>93</GradeStisfication>
+			<CourseDifficulty>33</CourseDifficulty>
+			<CourseLoad>52</CourseLoad>
+			<CourseValue>65</CourseValue>
+			<CustomComment>上的是English version 老师Wong Hoi To 人挺好的</CustomComment>
+		</comment>
+		<summary>
+			<AOR>70</AOR>
+			<AGR>4.00</AGR>
+			<ACD>33</ACD>
+			<ACL>52</ACL>
+			<ACV>65</ACV>
+			<commentNum>1</commentNum>
+		</summary>
+	</course>
+</courselist>

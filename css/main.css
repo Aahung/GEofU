@@ -12,146 +12,150 @@
 		background-repeat: repeat;
 		background-position: top left;
 	}
+	#eatall
+	{
+		position: relative;
+	}
 	#bodyContainer
 	{
+		padding-top: 50px;
+		padding-bottom: 12px;
 		margin: auto;
 		min-width: 880px;
-		max-width: 960px;
+		max-width: 1200px;
 		background: transparent;
 	}
-	#isotope
+	/*导航栏css*/
+	header
 	{
-		background:transparent;
-		border: dashed;
-		border-color:white;
-		padding: 5px;
+		z-index: 1000;
+		position: fixed;
+		background-color: rgba(0,0,0,0.8);
+		top: 0px;
+		width: 100%;
+		height: 50px;
 	}
-	.element
+	header #nav-shell
 	{
-		height: 100px;
-		width: 100px;
-		margin: 5px;
-		float: left;
-		vertical-align: baseline;
+		height: 50px;
 	}
-	.element.AREA1
+	header #nav-shell #nav-content
 	{
-		background-color: #FF6100;
+		min-width: 900px;
+		max-width: 1200px;
+		margin: auto;
 	}
-	.element.AREA2
+	header div div ul
 	{
-		background-color: #E80CDA;
-	}
-	.element.AREA3
-	{
-		background-color: #002EFF;
-	}
-	.element.English
-	{
-		background-color: #0CE892;
-	}
-	.element.CCIV
-	{
-		background-color: #D1FF0D;
-	}
-	.element:hover {
-		cursor: pointer;
-	}
-	#options ul,#title-nav ul {
-		margin: 0;
 		list-style: none;
 	}
-	#options ul:first-child li {
-		float: left;
-		margin-bottom: 0.2em;
-	      }
-	#options ul:nth-child(2) li {
-		float: right;
-		margin-bottom: 0.2em;
-	      }
-	#title-nav ul li {
-		float: left;
-		
-	      }
-
-	#title-nav li a
+	header div div ul li
 	{
-	  border-radius: 7px 7px 7px 7px;
-	}
-	#options li a,#title-nav li a {
+		float: left;
+		margin: 0 14px;
 		display: block;
-		padding: 0.4em 0.5em;
-		background-color: #DDD;
-		color: #222;
+	}
+	header div div ul li a
+	{
+		display: block;
+		color: white;
+		padding: 14px 0.5em;
+		background: transparent;
 		font-weight: bold;
-		text-shadow: 0 1px hsla( 0, 0%, 100%, 0.5 );
-		background-image: -webkit-linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
-		background-image:    -moz-linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
-		background-image:     -ms-linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
-		background-image:      -o-linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
-		background-image:         linear-gradient( top, hsla( 0, 0%, 100%, 0.5 ), hsla( 0, 0%, 100%, 0.0 ) );
+		text-decoration: none;
 	}
-
-	#options li a:hover,#title-nav li a:hover {
-	  background-color: #5BF;
+	header div div ul li span
+	{
+		display: block;
+		color: black;
+		padding: 14px 0.5em;
+		background-image: url("../img/titlebg.png");
+		font-weight: bold;
+		text-decoration: none;
 	}
-	
-	#options li a:active, #title-nav li a:active {
-	  background-color: #39D;
-	  -webkit-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	     -moz-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	       -o-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-		  box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
-	}
-	
-	#options li a,#title-nav li a {
-	  border-left:  1px solid hsla( 0, 0%, 100%, 0.3 );
-	  border-right: 1px solid hsla( 0, 0%,   0%, 0.2 );
-	  text-decoration:none;
-	}
-	
-	#options ul:nth-child(2) li:last-child a, #options ul:first-child li:first-child a {
-	  border-radius: 7px 0 0 7px;
-	  border-left: none;
-	}
-	
-	#options ul:first-child li:last-child a, #options ul:nth-child(2) li:first-child a{
-	  border-radius: 0 7px 7px 0;
-	}
-	#options li a small
+	header div div ul li a:hover, header div div ul li a.selected
 	{
 		color: black;
+		background: white;
 	}
-	#options li a.selected small
+	header div div ul li a.selected
+	{
+		cursor: default;
+	}
+	/*导航栏css结束*/
+	/*footerCSS*/
+	footer
+	{
+		position: fixed;
+		z-index: 1000;
+		bottom: 0px;
+		width: 100%;
+	}
+	#footer-content
+	{
+		display: inline-block;
+		float: right;
+		padding-left: 10px;
+		background-color: rgba(0,0,0,0.8);
+		font-size: xx-small;
+		text-align: right;
+		-moz-border-radius: 2px 0px 0px 0px;
+		-webkit-border-radius: 2px 0px 0px 0px;
+		-khtml-border-radius: 2px 0px 0px 0px;
+		border-radius: 2px 0px 0px 0px;
+	}
+	/*footer CS结束*/
+	/*以下是弹出式form的css*/
+	.white-popup {
+		position: relative;
+		background: rgba(0,0,0,0.7);
+		padding: 50px;
+		width: auto;
+		max-width: 500px;
+		margin: 20px auto;
+	}
+	form li
+	{
+		display: block;
+	}
+	form h1
+	{
+		margin-bottom: 20px;
+	}
+	form h1, form li, form h3, form h2, form em
 	{
 		color: white;
 	}
-	
-	#options li a.selected {
-	  background-color: #13F;
-	  text-shadow: none;
-	  color: white;
-	}
-	#container p
+	form select
 	{
-	  font-size: smaller;
-	  text-align: right;
+		color: white;
+		background: rgba(0,0,0,0.7);
+		width: auto;
+		padding: 5px;
+		font-size: 16px;
+		line-height: 1;
+		border-radius: 0;
+		-webkit-appearance: none;
 	}
-	#container h2
+	form select option
 	{
-	  font-size: xx-small;
-	  margin: 0;
+		color: white;
 	}
-	#container h1
+	form input[type="range"]
 	{
-	  float: right;
-	  font-size: larger;
+		-webkit-appearance:none;
+		-moz-apperance:none;
+		height:1px;
+		margin-bottom: 5px;
 	}
-	#container div
+	form input[type="text"],form input[type="email"],form input[type="num"], form textarea, form input[type="submit"]
 	{
-	  padding: 1px;
+		background: transparent;
+		border-color: white;
+		color: white;
 	}
-	#title, #title div
+	form button
 	{
-	  float: left;
+		color: white !important;
 	}
+	/*弹出式popcss结束*/
