@@ -7,6 +7,9 @@
 <meta name="description" content="GEofU是一个提供CityU GE精进课程的统计型网站"/>
 <link rel="shortcut icon" href="logo/logo.ico" type="image/x-icon"/>
 <link href="logo/logo.png" rel="apple-touch-icon" />
+<!--Jquery-->
+<script src="jquery-1.8.3.min.js"></script>
+<!--Jquery结束-->
 <!-- Magnific Popup core CSS file -->
 <link rel="stylesheet" href="css/magnific-popup.css">
 <title>GEofU精进课程统计</title>
@@ -14,7 +17,8 @@
 并用于生成一个GEcourse 的code的array-->
 <script src="loadXMLDoc.js"></script>
 <script src="makeGEarray.js"></script>
-
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.css" />
 <!--isotope 的css文件-->
 <link rel="stylesheet" href="css/isotope.css" />
 <link rel="stylesheet" href="css/main.css" />
@@ -237,9 +241,9 @@
 </footer>
 </div>
 </body>
-<!--Jquery-->
-<script src="jquery-1.8.3.min.js"></script>
-<!--Jquery结束-->
+<!-- bootstrap js -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- bootstrap js 结束 -->
 <!--isotope JS-->
 <script src="js/jquery.isotope.min.js"></script>
 <script>
