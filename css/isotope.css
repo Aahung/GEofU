@@ -90,11 +90,11 @@
 	{
 		background-color: #002EFF;
 	}
-	.element.English
+	.element.AREA4
 	{
 		background-color: #0CE892;
 	}
-	.element.CCIV
+	.element.AREA5
 	{
 		background-color: #D1FF0D;
 	}
@@ -105,15 +105,15 @@
 		margin: 0;
 		list-style: none;
 	}
-	#options ul:first-child li {
+/*	#options ul:first-child li {
 		float: left;
 		margin-bottom: 0.2em;
 	      }
 	#options ul:nth-child(2) li {
 		float: right;
 		margin-bottom: 0.2em;
-	      }
-	#options li a {
+	      }*/
+	/*#options li a {
 		display: block;
 		padding: 0.4em 0.5em;
 		background-color: #DDD;
@@ -166,21 +166,38 @@
 	#options li a.selected small
 	{
 		color: white;
+	}*/
+	.isotope-item > span {
+		position: absolute;
 	}
-	#container p
-	{
-	  font-size: smaller;
-	  text-align: right;
+	.isotope-item > span.commentNum {
+		right: 1%;
+		bottom: 1%;
 	}
-	#container h2
-	{
-	  font-size: xx-small;
-	  margin: 0;
+	.isotope-item > span.GEcode {
+		right: 1%;
+		top: 20%;
+		font-size: 25px;
 	}
-	#container h1
-	{
-	  float: right;
-	  font-size: larger;
+	.isotope-item > span.AOR {
+		left: 1%;
+		top: 1%;
+	}
+	.isotope-item > span.AGR {
+		left: 1%;
+		top: 20%;
+	}
+	.isotope-item > span.ACD {
+		left: 1%;
+		top: 40%;
+	}
+	.isotope-item > span.ACL {
+		left: 1%;
+		top: 60%;
+	}
+	.isotope-item > span.ACV {
+		left: 1%;
+		top: 80%;
 	}
 	#container div
 	{
