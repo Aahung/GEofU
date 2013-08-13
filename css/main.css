@@ -1,8 +1,8 @@
 	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
 	{
-		margin: 0;
+/*		margin: 0;
 		padding: 0;
-		border: 0;
+		border: 0;*/
 		color: white;
 		font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
 	}
@@ -11,12 +11,9 @@
 		background-image: url("../img/wood-bg.jpg");
 		background-repeat: repeat;
 		background-position: top left;
+		padding: 70px;
 	}
-	#eatall
-	{
-		position: relative;
-	}
-	#bodyContainer
+/*	#bodyContainer
 	{
 		padding-top: 50px;
 		padding-bottom: 12px;
@@ -24,9 +21,9 @@
 		min-width: 880px;
 		max-width: 1200px;
 		background: transparent;
-	}
+	}*/
 	/*导航栏css*/
-	header
+/*	header
 	{
 		z-index: 1000;
 		position: fixed;
@@ -81,7 +78,7 @@
 	header div div ul li a.selected
 	{
 		cursor: default;
-	}
+	}*/
 	/*导航栏css结束*/
 	/*footerCSS*/
 	footer
@@ -158,4 +155,25 @@
 	{
 		color: white !important;
 	}
+	.nav-pulls > li > a {
+		border: 2px solid white;
+  		color: white;
+	}
+	.nav-pills > li.active > a,
+	.nav-pills > li > a:hover,
+	.nav-pills > li > a:focus,
+	.nav-pills > li > a.selected {
+	  color: #ffffff;
+	  background-color: rgba(82,100,255,1);
+	  border: 2px solid white;
+	}
 	/*弹出式popcss结束*/
+	.list-group-item, .list-group-item * , .panel, .panel *, div.modal *{
+		color: black !important;
+	}
+	form select {
+		background-color: transparent;
+	}
+	input {
+		border: 1px solid #cccccc !important;
+	}
