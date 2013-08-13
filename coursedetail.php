@@ -178,16 +178,6 @@ if ((!$lang)||(!quiz)||(!finalExam)) {
             };
         ?>
             </div>
-            <script type="text/javascript">
-                function ensure() {
-                    if (confirm('确认提交评价？')) {
-                        return true;
-                    }
-                    else {
-                        return false;
-                    }
-                }
-            </script>
             <div class="col-lg-4" id="commentForm">
                 <legend>注意到这里！！</legend>
                 <div class="panel col-lg-12">

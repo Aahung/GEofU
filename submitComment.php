@@ -44,12 +44,19 @@
 		$value += $row['value'];
 		$commentNum ++;
 	}
-	$sql_summary = "
-					UPDATE summary SET overallRange = :overallRange, 
-					gradeRange = :gradeRange, gradeSatisfaction = :gradeSatisfaction,
-					difficulty = :difficulty, loads = :loads, value = :value,
-					commentNum = :commentNum WHERE geCode = :geCode
-	";
+	if ($commentNum == 1) {
+		$sql_summary = "INSERT INTO summary (geCode, overallRange, gradeRange, gradeSatisfaction,
+						difficulty, loads, value, commentNum) VALUES (:geCode, :overallRange, :gradeRange,
+						:gradeSatisfaction, :difficulty, :loads, :value, :commentNum)
+						";
+	}
+	else {
+		$sql_summary = "UPDATE summary SET overallRange = :overallRange, 
+						gradeRange = :gradeRange, gradeSatisfaction = :gradeSatisfaction,
+						difficulty = :difficulty, loads = :loads, value = :value,
+						commentNum = :commentNum WHERE geCode = :geCode
+						";
+	}
 	try {
 		$st_summary = $conn -> prepare( $sql_summary );
 		$st_summary -> bindValue( ":geCode", $_POST["geCode"], PDO::PARAM_STR);

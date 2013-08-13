@@ -91,7 +91,7 @@
                             <div class="form-group">
                                 <label for="_email" class="col-4 col-lg-4 control-label">Email</label>
                                 <div class="input-group col-lg-8 col-8">
-                                    <input type="text" class="form-control" id="_email" name="email">
+                                    <input type="text" class="form-control" id="_email" name="email" required>
                                     <span class="input-group-addon">-c@my.cityu.edu.hk</span>
                                 </div>
                                 <div class="col-lg-offset-2 col-lg-10">

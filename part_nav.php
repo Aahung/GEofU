@@ -20,6 +20,16 @@
 
 <!-- modals -->
 <script type="text/javascript">
+    function ensure() {
+        if (confirm('确认提交评价？')) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+</script>
+<script type="text/javascript">
     function showRange(id) {
         displayId = id + "Display";
         document.getElementById(displayId).value = document.getElementById(id).value;

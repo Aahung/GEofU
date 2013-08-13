@@ -3,7 +3,7 @@
                         <div class="form-group">
                             <label for="_geCode" class="col-6 col-lg-6 control-label">GE编号:</label>
                             <div class="col-lg-6 col-6">
-                                <input type="text" class="form-control" id="_geCode" name="geCode" placeholder="GE????">
+                                <input type="text" class="form-control" id="_geCode" name="geCode" value="GE" placeholder="GE????">
                             </div>
                         </div>
                         <div class="form-group">

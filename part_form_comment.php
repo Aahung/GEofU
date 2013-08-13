@@ -3,7 +3,7 @@
                         <div class="form-group">
                             <label for="geCode" class="col-6 col-lg-6 control-label">GE编号:</label>
                             <div class="col-lg-6 col-6">
-                                <input type="text" class="form-control" id="geCode" name="geCode" placeholder="GE????">
+                                <input type="text" class="form-control" id="geCode" name="geCode" value="<?php echo $geCode ?>" placeholder="<?php echo $geCode ?>
                             </div>
                         </div>
                         <div class="form-group">

@@ -69,7 +69,7 @@
 		document.write("<section><div style='border:dashed;border-color:white'><h1>Area"+j+"</h1></div><article>");	//code		
 		}
 		for (i=0; i < AREA[j].length; i++){
-		document.write("<li><a href="+"'"+"coursedetail.php?a="+j+"&c="+AREA[j][i][2]+AREA[j][i][3]+AREA[j][i][4]+AREA[j][i][5]+"'>"+AREA[j][i]+"</a></li>");
+		document.write("<li><a href="+"'"+"coursedetail.php?course="+AREA[j][i]+"'>"+AREA[j][i]+"</a></li>");
 		}
 		document.write("</article></section>")
 	}
