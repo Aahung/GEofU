@@ -12,7 +12,7 @@
                 <li><a href="#" data-toggle="modal" data-target="#comment">我要提供评价</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#advice">我要报错</a></li>
                 <li><a href="courselist.php" target="new">GE课程列表</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#geBase">我要提供基础数据</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#geBase">我要提供基础数据<i style="color:red">NEW!</i></a></li>
             </ul>
         </div>
     </div>  

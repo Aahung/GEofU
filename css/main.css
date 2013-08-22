@@ -11,76 +11,8 @@
 		background-image: url("../img/wood-bg.jpg");
 		background-repeat: repeat;
 		background-position: top left;
-		padding: 70px;
+		padding-top: 70px;
 	}
-/*	#bodyContainer
-	{
-		padding-top: 50px;
-		padding-bottom: 12px;
-		margin: auto;
-		min-width: 880px;
-		max-width: 1200px;
-		background: transparent;
-	}*/
-	/*导航栏css*/
-/*	header
-	{
-		z-index: 1000;
-		position: fixed;
-		background-color: rgba(0,0,0,0.8);
-		top: 0px;
-		width: 100%;
-		height: 50px;
-	}
-	header #nav-shell
-	{
-		height: 50px;
-	}
-	header #nav-shell #nav-content
-	{
-		min-width: 900px;
-		max-width: 1200px;
-		margin: auto;
-	}
-	header div div ul
-	{
-		list-style: none;
-	}
-	header div div ul li
-	{
-		float: left;
-		margin: 0 14px;
-		display: block;
-	}
-	header div div ul li a
-	{
-		display: block;
-		color: white;
-		padding: 14px 0.5em;
-		background: transparent;
-		font-weight: bold;
-		text-decoration: none;
-	}
-	header div div ul li span
-	{
-		display: block;
-		color: black;
-		padding: 14px 0.5em;
-		background-image: url("../img/titlebg.png");
-		font-weight: bold;
-		text-decoration: none;
-	}
-	header div div ul li a:hover, header div div ul li a.selected
-	{
-		color: black;
-		background: white;
-	}
-	header div div ul li a.selected
-	{
-		cursor: default;
-	}*/
-	/*导航栏css结束*/
-	/*footerCSS*/
 	footer
 	{
 		position: fixed;
@@ -155,15 +87,15 @@
 	{
 		color: white !important;
 	}
-	.nav-pulls > li > a {
-		border: 2px solid white;
-  		color: white;
+	.nav-pills > li > a {
+		border: 2px solid white !important;
+  		color: white !important;
 	}
 	.nav-pills > li.active > a,
 	.nav-pills > li > a:hover,
 	.nav-pills > li > a:focus,
 	.nav-pills > li > a.selected {
-	  color: #ffffff;
+	  color: #ffffff !important;
 	  background-color: rgba(82,100,255,1);
 	  border: 2px solid white;
 	}
@@ -176,4 +108,54 @@
 	}
 	input {
 		border: 1px solid #cccccc !important;
+	}
+
+	/*nav-bar*/
+	.navbar {
+		background-color: #eeeeee;
+	}
+	.navbar-brand {
+		display: block;
+		padding: 15px 15px;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 20px;
+		color: black;
+		text-align: center;
+	}
+
+	.navbar-brand:hover,
+	.navbar-brand:focus {
+		color: #5e5e5e;
+		text-decoration: none;
+		background-color: transparent;
+	}
+	.navbar-nav > li > a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		line-height: 20px;
+		color: #777777;
+		border-radius: 4px;
+	}
+
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+		color: #333333;
+		background-color: transparent;
+	}
+
+	.navbar-nav > .active > a,
+	.navbar-nav > .active > a:hover,
+	.navbar-nav > .active > a:focus {
+		color: #555555;
+		background-color: #d5d5d5;
+	}
+
+	.navbar-nav > .disabled > a,
+	.navbar-nav > .disabled > a:hover,
+	.navbar-nav > .disabled > a:focus {
+		color: #cccccc;
+		background-color: transparent;
 	}

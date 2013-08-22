@@ -141,7 +141,7 @@ if ((!$lang)||(!quiz)||(!finalExam)) {
                 $per_comment = $row_comment["comment"];
                     if ($per_comment == '') $per_comment = "我是懒鬼，我懒得写评价。";
                 $per_time = $row_comment["time"];
-                $per_time = gmdate("Y-m-d H:i:s", $per_time);
+                $per_time = date("Y-m-d H:i:s", $per_time);
                 echo '
                 <div class="panel col-lg-12">
                     <div class="panel-heading">' . $per_time .'</div>
