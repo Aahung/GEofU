@@ -20,8 +20,9 @@
 	$link .= "safeCode=";
 	$link .= $safeCode;
 	$mailto = $_POST['email'] . "-c@my.cityu.edu.hk";
-	$body = "您好，感谢提供课程基础数据，请点击：\n\n" . $link;
-	sendMail($mailto, "mailVerify testing", $body);
+	$body = "您好，感谢提供课程基础数据，您的名字将在课程页面保留直至下一个用户发现您的信息有误并更新该课程基础信息。\n
+	请完成课程基础数据提交：\n\n" . $link;
+	sendMail($mailto, "感谢您提供课程基础数据", $body);
 		if (PEAR::isError($mail)) {
 		   $verifySent = false;
 		  } else {

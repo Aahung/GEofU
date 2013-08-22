@@ -85,7 +85,7 @@
     			echo "</div>\n";
     		}
     	?>
-    		<a href="#form" class="open-popup-link">
+    		<a href="#" data-toggle="modal" data-target="#comment">
                 <div class='element addnew'>
         			<img src="img/addnew.png">
         			<span class='AOR' style="display: none">-1</span>
