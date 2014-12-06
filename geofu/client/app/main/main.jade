@@ -1,0 +1,55 @@
+div(ng-include='"components/navbar/navbar.html"')
+
+header#banner.hero-unit
+  .container
+    h1 欢迎来到GEofU
+    p.lead 简单粗暴，就是这么diao
+    a.btn.btn-lg.btn-success(href='') 评论入口
+
+
+.container
+  br
+  .row
+    .col-lg-12
+      .btn-toolbar(role="toolbar" aria-label="...")
+        .btn-group(role="group" aria-label="...")
+          button.btn.btn-default(type="button") 总评
+          button.btn.btn-default(type="button") 成绩满意
+          button.btn.btn-default(type="button") 难度
+          button.btn.btn-default(type="button") 课业
+          button.btn.btn-default(type="button") 价值
+          button.btn.btn-default(type="button") 成绩
+        .btn-group.pull-right(role="group" aria-label="...")
+          button.btn.btn-default(type="button") ALL areas
+          button.btn.btn-default(type="button") Area 1
+          button.btn.btn-default(type="button") Area 2
+          button.btn.btn-default(type="button") Area 3
+          button.btn.btn-default(type="button") Area 4
+  br
+  .row
+    a.col-md-3.col-lg-3.col-sm-6(type="button" href="#" ng-repeat='course in courses')
+      .panel.panel-default
+        .panel-heading 
+          h4.panel-title {{course.code}} 
+          div(title='{{course.nameEn}}') {{((course.nameEn.length > 35)? (course.nameEn.substr(0, 32) + '...') : course.nameEn)}}
+        .panel-body
+          canvas.chart.chart-radar(data="course.data" labels="course.labels")
+
+
+  form.thing-form
+    label Syncs in realtime across clients
+    p.input-group
+      input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
+      span.input-group-btn
+        button.btn.btn-primary(type='submit', ng-click='addThing()') Add New
+
+footer.footer
+  .container
+    p
+      | 
+      = 'by ' 
+      a(href="https://xinhong.me") xinhong.me
+      = ' | '
+      a(href='https://github.com/Aahung/GEofU') Open sourced on Github
+      = ' | '
+      a(href='https://github.com/Aahung/GEofU/issues') Issues
