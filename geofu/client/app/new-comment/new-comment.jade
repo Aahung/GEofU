@@ -1,0 +1,99 @@
+div(ng-include='"components/navbar/navbar.html"')
+
+
+.container
+    .row
+        form.form-horizontal(role="form")
+            .col-sm-5
+                legend 基本信息
+                .form-group
+                    label.col-sm-4.control-label 课程代码 *
+                    .col-sm-8
+                        input.form-control(required)
+                .form-group
+                    label.col-sm-4.control-label 什么时候上的 *
+                    .col-sm-8
+                        select.form-control
+                            options
+                                option 2013/2014 B
+                                option 2013/2014 A
+                .form-group
+                    label.col-sm-4.control-label 成绩
+                    .col-sm-8
+                        select.form-control
+                            options
+                                option A+
+                                option A
+                                option(selected) A-
+                .form-group
+                    label.col-sm-4.control-label 老师
+                    .col-sm-8
+                        input.form-control
+                legend 评分
+                .form-group
+                    label.col-sm-4.control-label 总体评分
+                    .col-sm-8
+                        input.form-control#overall
+                .form-group
+                    label.col-sm-4.control-label 成绩满意
+                    .col-sm-8
+                        input.form-control#grade-satisfy
+                .form-group
+                    label.col-sm-4.control-label 难度
+                    .col-sm-8
+                        input.form-control#difficulty
+                .form-group
+                    label.col-sm-4.control-label 价值
+                    .col-sm-8
+                        input.form-control#value
+            .col-sm-5.col-sm-offset-2
+                legend 课业负担
+                .form-group
+                    label.col-sm-4.control-label Quiz
+                    .col-sm-8
+                        input.form-control(type="number")
+                .form-group
+                    label.col-sm-4.control-label Test
+                    .col-sm-8
+                        input.form-control(type="number")
+                .form-group
+                    label.col-sm-4.control-label Assignment
+                    .col-sm-8
+                        input.form-control(type="number")
+                .form-group
+                    label.col-sm-4.control-label Presentation
+                    .col-sm-8
+                        input.form-control(type="number")
+                .form-group
+                    label.col-sm-4.control-label Report
+                    .col-sm-8
+                        input.form-control(type="number")
+                .form-group
+                    label.col-sm-4.control-label Final
+                    .col-sm-8
+                        select.form-control
+                            options
+                                option 有
+                                option(selected) 没有
+    .row
+        hr
+        .col-sm-8.col-sm-offset-2 关于隐私：提交时假如你处于登陆状态你的信息将会和这条评论捆绑在一起，我们不会把这个信息交由第三方查看。
+        .col-sm-12.text-center
+            br
+            a.btn.btn-lg.btn-success 提交！
+
+div(ng-include='"components/footer/footer.html"')
+
+script.
+    $(function(){
+        var sliderOption = {
+            min: 1,
+            max: 5,
+            step: 1,
+            value: 3
+        };
+        var overallSlider = new Slider("input#overall", sliderOption);
+        var gradeSatisfySlider = new Slider("input#grade-satisfy", sliderOption);
+        var difficultySlider = new Slider("input#difficulty", sliderOption);
+        var valueSlider = new Slider("input#value", sliderOption);
+    });

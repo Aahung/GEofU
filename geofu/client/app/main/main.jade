@@ -4,7 +4,7 @@ header#banner.hero-unit
   .container
     h1 欢迎来到GEofU
     p.lead 简单粗暴，就是这么diao
-    a.btn.btn-lg.btn-success(href='') 评论入口
+    a.btn.btn-lg.btn-success(href='new-comment') 评论入口
 
 
 .container
@@ -43,13 +43,4 @@ header#banner.hero-unit
       span.input-group-btn
         button.btn.btn-primary(type='submit', ng-click='addThing()') Add New
 
-footer.footer
-  .container
-    p
-      | 
-      = 'by ' 
-      a(href="https://xinhong.me") xinhong.me
-      = ' | '
-      a(href='https://github.com/Aahung/GEofU') Open sourced on Github
-      = ' | '
-      a(href='https://github.com/Aahung/GEofU/issues') Issues
+div(ng-include='"components/footer/footer.html"')
